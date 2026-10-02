@@ -1,0 +1,4 @@
+feature,n_complete,vif
+dq100_10_log_variance,129,1.8932920477167758
+cycle10_rms_c_timeweighted,129,1.4236983470411428
+capacity_mad_relative,129,1.4538902855358704

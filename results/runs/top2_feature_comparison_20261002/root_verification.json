@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "models_reloaded": 9,
+  "external_model_metrics_checked": 27,
+  "linear_outer_fold_models_refitted": 45,
+  "training_only_rank_scopes_verified": 448,
+  "original_and_previous_artifacts_preserved": true,
+  "IR_excluded": true,
+  "core_model_unchanged": true
+}

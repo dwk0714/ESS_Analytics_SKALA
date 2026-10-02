@@ -1,0 +1,171 @@
+{
+  "status": "trained_not_evaluated",
+  "model": "Ridge",
+  "selected_features": [
+    "dq100_10_log_variance",
+    "cycle10_rms_c_timeweighted"
+  ],
+  "alpha": 1,
+  "forecast_cycle": 100,
+  "target": "provided cycle_life",
+  "target_transform": "log10",
+  "inverse_transform": "10**prediction",
+  "train_cell_keys": [
+    "B1c3",
+    "B1c4",
+    "B1c5",
+    "B1c6",
+    "B1c7",
+    "B1c8",
+    "B1c9",
+    "B1c10",
+    "B1c11",
+    "B1c12",
+    "B1c13",
+    "B1c16",
+    "B1c17",
+    "B1c20",
+    "B1c21",
+    "B1c22",
+    "B1c23",
+    "B1c24",
+    "B1c25",
+    "B1c26",
+    "B1c27",
+    "B1c30",
+    "B1c31",
+    "B1c32",
+    "B1c33",
+    "B1c36",
+    "B1c37",
+    "B1c38",
+    "B1c39",
+    "B1c40",
+    "B1c41",
+    "B1c42",
+    "B1c43",
+    "B1c44",
+    "B1c45"
+  ],
+  "training_rows": 35,
+  "training_policy_groups": 18,
+  "cv_metrics": {
+    "MAPE_percent": 6.986528376047286,
+    "MAE_cycles": 58.388934361332396,
+    "RMSE_cycles": 75.10422575748493
+  },
+  "cv_baseline_metrics": {
+    "MAPE_percent": 20.24370763628133,
+    "MAE_cycles": 154.04285714285714,
+    "RMSE_cycles": 190.2155731945055
+  },
+  "baseline_train_median": 857.0,
+  "fit_count": 71,
+  "data_fingerprint": "b15c8586d5f1720f52c89045df6ce1a6f19e95d7a098293a8a945de3dbe8fe30",
+  "config": {
+    "task": "regression",
+    "forecast_cycle": 100,
+    "raw_dir": "data/raw",
+    "dataset_url": "https://www.kaggle.com/datasets/itshpark/data-driven-prediction-of-battery-cycle",
+    "batches": {
+      "B1": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "B2": "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+      "B3": "2018-04-12_batchdata_updated_struct_errorcorrect.mat"
+    },
+    "expected_records": {
+      "B1": 46,
+      "B2": 47,
+      "B3": 46
+    },
+    "expected_labeled": {
+      "B1": 46,
+      "B2": 39,
+      "B3": 44
+    },
+    "feature_sets": {
+      "baseline_2": [
+        "dq100_10_log_variance",
+        "cycle10_rms_c_timeweighted"
+      ],
+      "recommended_3": [
+        "dq100_10_log_variance",
+        "cycle10_rms_c_timeweighted",
+        "capacity_mad_relative"
+      ]
+    },
+    "alpha_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10,
+      100,
+      1000
+    ],
+    "solver": "svd",
+    "target_transform": "log10",
+    "holdout_group_fraction": 0.2,
+    "random_state": 42,
+    "cv_folds": 5,
+    "expected_development_rows": 35,
+    "expected_holdout_rows": 11,
+    "holdout_policies": [
+      "3.6C(80%)-3.6C",
+      "5.4C(60%)-3C",
+      "5.4C(70%)-3C",
+      "6C(50%)-3C",
+      "7C(30%)-3.6C"
+    ],
+    "paper_mape_percent": 9.1,
+    "gap_formulas": {
+      "Gap (Train-Valid)": "Valid - Train",
+      "Gap (Valid-Test)": "Test - Valid",
+      "Gap (Target-Test)": "Test - 9.1",
+      "Gap (Batch2-Batch3)": "Batch3 - Batch2"
+    },
+    "gap_unit": "percentage points",
+    "gap_positive_means": "later evaluation has a larger MAPE error",
+    "quality": {
+      "qd_max_ah": 1.65,
+      "reference_min_valid": 5,
+      "curve_min_ptp_ah": 0.1,
+      "voltage_points": 1000
+    },
+    "error_cases_per_dataset": 3,
+    "refit_all_b1_before_test": false
+  },
+  "model_file_sha256": "efa754d30cef6e813776400d42449b8c3d4e4eb2ab181ca1a3bddb575ed6e8e8",
+  "environment": {
+    "python": "3.11.11",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.4.6",
+      "pandas": "3.0.6",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2",
+      "joblib": "1.6.0"
+    }
+  },
+  "same_model_for_valid_b2_b3": true,
+  "scaler_mean": [
+    -3.8588157257935034,
+    3.1046361367770277
+  ],
+  "scaler_scale": [
+    0.2937398549550416,
+    0.1726711939283875
+  ],
+  "standardized_coefficients_log10_target": [
+    -0.05419079416859093,
+    -0.03308624067042875
+  ],
+  "intercept_log10_target": 2.9085070704446956,
+  "limitations": [
+    "B2/B3 were used in DAY1 EDA",
+    "physical cross-file cell identity unresolved",
+    "stored target ending rules differ",
+    "tuning CV is selection-biased"
+  ]
+}

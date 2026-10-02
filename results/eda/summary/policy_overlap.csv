@@ -1,0 +1,4 @@
+batch_a,batch_b,n_policies_a,n_policies_b,n_overlap,jaccard,shared_policy_text,caution
+B1,B2,23,17,2,0.05263157894736842,4.8C(80%)-4.8C | 6C(60%)-3C,"Text overlap only; suffix stripped, cell structure/conditions not assumed identical"
+B1,B3,23,8,1,0.03333333333333333,4.8C(80%)-4.8C,"Text overlap only; suffix stripped, cell structure/conditions not assumed identical"
+B2,B3,17,8,1,0.041666666666666664,4.8C(80%)-4.8C,"Text overlap only; suffix stripped, cell structure/conditions not assumed identical"

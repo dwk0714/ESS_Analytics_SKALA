@@ -1,0 +1,21 @@
+{
+  "cv_seconds": 13.579160749999573,
+  "refit_seconds": 1.4390929169967421,
+  "training_total_seconds": 15.062396583001828,
+  "fit_count": 2512,
+  "device": "CPU",
+  "environment": {
+    "python": "3.11.11",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.4.6",
+      "pandas": "3.0.6",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2",
+      "joblib": "1.6.0",
+      "xgboost": "3.2.0"
+    }
+  }
+}

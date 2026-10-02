@@ -1,0 +1,2 @@
+trial,features,parameters,inner_MAPE_percent
+0,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']",{'alpha': 1.0},6.744890466198633

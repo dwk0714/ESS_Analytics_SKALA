@@ -1,0 +1,4 @@
+feature,role,formula,unit,selection_reason,limitation,source,latest_observation_cycle
+dq100_10_log_variance,recommended,"log10(var(Q100(V)-Q10(V), ddof=1))",log10(Ah^2 numerical value),모든 배치에서 수명과 음의 관계가 유지된 가장 강한 초기 곡선 변화 후보. 총용량 한 점에서 보이지 않는 전압별 변화를 요약한다.,100사이클과 공통 전압축이 필요하다. 특정 열화 기전이나 일반화 성능의 검증값은 아니다.,delta/delta_features.csv,100
+cycle10_rms_c_timeweighted,recommended,sqrt(sum(dt*(C0^2+C0*C1+C1^2)/3)/sum(dt)),C-rate,실제 충전 전류 크기를 시간 가중하여 요약한다. 세 배치에서 Pearson 방향이 같고 ΔQ와의 부분 중복은 허용 가능한 비교 수준이다.,"Cycle10 한 회, 첫 방전 전 active 양의 CC/CV 구간이다. 고SOC만의 RMS, 열량 또는 plating 양이 아니다.",current/current_features.csv,10
+capacity_mad_relative,recommended_addition,median(abs(Qd2:100-median(Qd2:100)))/q_ref,fraction,"초기 용량 변동을 중앙값 절대편차로 표현해 표준편차의 극단값 민감도를 줄이고, 기준 용량으로 규모 차이를 정규화한다.",평탄성·초기 추세·측정 변동을 함께 포함한다. B3 순위 상관이 약하고 baseline2 대비 추가 예측 가치는 미검증이다.,feature_candidates/candidate_features_early_only.csv,100

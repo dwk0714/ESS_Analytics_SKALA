@@ -1,0 +1,33 @@
+{
+  "capacity_nominal_ah": 1.1,
+  "capacity_high_qc_ah": 1.65,
+  "capacity_high_rule": "A heuristic QC ceiling of 1.5 x nominal, not a proved physical maximum.",
+  "isolated_spike_deviation_ah": 0.1,
+  "isolated_neighbor_tolerance_ah": 0.03,
+  "isolated_neighbor_count_each_side": 2,
+  "fit_start_cycle": 20,
+  "median_windows": [
+    7,
+    15
+  ],
+  "primary_median_window": 15,
+  "rolling_min_periods": 3,
+  "min_fit_points": 160,
+  "min_segment_points": 40,
+  "min_segment_fraction": 0.15,
+  "candidate_max_count_approx": 400,
+  "min_sse_improvement_fraction": 0.2,
+  "min_slope_acceleration_ratio": 1.5,
+  "min_slope_difference_ah_per_cycle": 1e-05,
+  "near_flat_pre_slope_ah_per_cycle": 1e-06,
+  "eol_ah": 0.88,
+  "window_stability_max_knee_shift_observed_span_fraction": 0.05,
+  "alternative_cutoffs": [
+    "first_QD_le_0.88_inclusive",
+    "start_cycle_50"
+  ],
+  "slope_windows": "first and last 20% of the cycle >=20 observed span",
+  "early_slope_window": "actual cycles 2..100, only if observations and available life label reach 100",
+  "no_fit_to_cycle_life": "All fit cutoffs use actual observations; missing labels are never imputed.",
+  "interpretation": "Retrospective, phenomenological candidate; no mechanistic or predictive claim."
+}

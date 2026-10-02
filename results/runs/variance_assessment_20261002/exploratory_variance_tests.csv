@@ -1,0 +1,10 @@
+scope,signal,n_short,n_long,statistic,pvalue,interpretation,n_mid,spearman_life_abs_centered_residual,spearman_pvalue
+all_batches_descriptive_confounded,cycle_life,28.0,36,12.12587527140726,0.0009173073637456386,descriptive; not causal; no multiple-test adjustment,,,
+all_batches_descriptive_confounded,dq100_10_log_variance,28.0,36,4.778033542254782,0.032610186613846494,descriptive; not causal; no multiple-test adjustment,,,
+all_batches_descriptive_confounded,capacity_mad_relative,28.0,36,12.010919671669184,0.0009658159822979699,descriptive; not causal; no multiple-test adjustment,,,
+B2_only_tiny_long_group,cycle_life,28.0,3,3.519562335387273,0.07074674257244061,descriptive; not causal; no multiple-test adjustment,,,
+B2_only_tiny_long_group,dq100_10_log_variance,28.0,3,0.6524119819695297,0.42582769878939997,descriptive; not causal; no multiple-test adjustment,,,
+B2_only_tiny_long_group,capacity_mad_relative,28.0,3,1.3474138262197104,0.25519720382454136,descriptive; not causal; no multiple-test adjustment,,,
+B1_train35_Ridge_OOF_mid_vs_long,residual_cycles,,7,0.45861953611483874,0.5029900896503966,OOF folds reuse training; selected CV is optimistic; low-power descriptive diagnostic,28.0,0.25365922045537137,0.1414700956176739
+B1_train35_Ridge_OOF_mid_vs_long,residual_log10,,7,0.011132993742984189,0.9166075172865016,OOF folds reuse training; selected CV is optimistic; low-power descriptive diagnostic,28.0,0.09580502859827388,0.5840573522931539
+B1_train35_Ridge_OOF_mid_vs_long,residual_relative_percent,,7,0.040249322594765394,0.8422252529277575,OOF folds reuse training; selected CV is optimistic; low-power descriptive diagnostic,28.0,0.08221864296372335,0.6386813962459944

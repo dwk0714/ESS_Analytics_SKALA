@@ -1,0 +1,13 @@
+{
+  "status": "features_extracted_not_trained",
+  "records": 139,
+  "feature_latest_cycle": 100,
+  "labeled_by_batch": {
+    "B1": 46,
+    "B2": 39,
+    "B3": 44
+  },
+  "missing_life": 10,
+  "cell_id_unique": true,
+  "raw_extraction_and_hash_seconds": 3.497807790998195
+}

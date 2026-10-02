@@ -1,0 +1,577 @@
+{
+  "selection_scope": "Fixed B1 train35 only; raw cycle_life Pearson ranking;IR excluded",
+  "global_full_B1_train_extra_features": [
+    "dq100_10_q05_ah",
+    "dq100_10_mean_ah"
+  ],
+  "models": [
+    {
+      "model": "OLS_delta_only",
+      "extra_features": [],
+      "base_features": [
+        [
+          "dq100_10_log_variance"
+        ]
+      ],
+      "parameters": {},
+      "train_cell_keys": [
+        "B1c3",
+        "B1c4",
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c8",
+        "B1c9",
+        "B1c10",
+        "B1c11",
+        "B1c12",
+        "B1c13",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c22",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "model_sha256": "d54d2b9161cae355418b264047e89c1021b43b11bf3e37c713bf4b162a3f4a8d",
+      "nested_MAPE_percent": 7.510005210652543
+    },
+    {
+      "model": "Ridge_alpha1_baseline",
+      "extra_features": [],
+      "base_features": [
+        [
+          "dq100_10_log_variance",
+          "cycle10_rms_c_timeweighted"
+        ]
+      ],
+      "parameters": {
+        "alpha": 1.0
+      },
+      "train_cell_keys": [
+        "B1c3",
+        "B1c4",
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c8",
+        "B1c9",
+        "B1c10",
+        "B1c11",
+        "B1c12",
+        "B1c13",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c22",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "model_sha256": "1a465f02781b0f33275cf489c65423d80ea64b59a413b8e2284755fe62fdded7",
+      "nested_MAPE_percent": 7.101784414952789
+    },
+    {
+      "model": "Ridge_alpha1_plus_top2",
+      "extra_features": [
+        "dq100_10_q05_ah",
+        "dq100_10_mean_ah"
+      ],
+      "base_features": [
+        [
+          "dq100_10_log_variance",
+          "cycle10_rms_c_timeweighted",
+          "dq100_10_q05_ah",
+          "dq100_10_mean_ah"
+        ]
+      ],
+      "parameters": {
+        "alpha": 1.0
+      },
+      "train_cell_keys": [
+        "B1c3",
+        "B1c4",
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c8",
+        "B1c9",
+        "B1c10",
+        "B1c11",
+        "B1c12",
+        "B1c13",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c22",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "model_sha256": "c5a7275a7f39f70048f2649fa16bba515f84bd9d0a270390b8dd7683651bd410",
+      "nested_MAPE_percent": 6.911931110521066
+    },
+    {
+      "model": "CatBoost_baseline",
+      "extra_features": [],
+      "base_features": [
+        [
+          "dq100_10_log_variance",
+          "cycle10_rms_c_timeweighted"
+        ]
+      ],
+      "parameters": {
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 10.0,
+        "iterations": 250,
+        "depth": 1
+      },
+      "train_cell_keys": [
+        "B1c3",
+        "B1c4",
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c8",
+        "B1c9",
+        "B1c10",
+        "B1c11",
+        "B1c12",
+        "B1c13",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c22",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "model_sha256": "e7bb5a590deb2a7ea2acb3024f924e57760710c0f691f29f39bdb3007257bbe5",
+      "nested_MAPE_percent": 8.178094422837495
+    },
+    {
+      "model": "CatBoost_plus_top2",
+      "extra_features": [
+        "dq100_10_q05_ah",
+        "dq100_10_mean_ah"
+      ],
+      "base_features": [
+        [
+          "dq100_10_log_variance",
+          "cycle10_rms_c_timeweighted",
+          "dq100_10_q05_ah",
+          "dq100_10_mean_ah"
+        ]
+      ],
+      "parameters": {
+        "learning_rate": 0.07,
+        "l2_leaf_reg": 10.0,
+        "iterations": 250,
+        "depth": 2
+      },
+      "train_cell_keys": [
+        "B1c3",
+        "B1c4",
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c8",
+        "B1c9",
+        "B1c10",
+        "B1c11",
+        "B1c12",
+        "B1c13",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c22",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "model_sha256": "b00d292d61db449670fee32c85e16e8c6d2b239a8de9fac02c6a90a2260030a9",
+      "nested_MAPE_percent": 8.151280562446804
+    },
+    {
+      "model": "Voting_equal_baseline",
+      "extra_features": [],
+      "base_features": [
+        [
+          "dq100_10_log_variance"
+        ],
+        [
+          "dq100_10_log_variance",
+          "cycle10_rms_c_timeweighted"
+        ],
+        [
+          "dq100_10_log_variance",
+          "cycle10_rms_c_timeweighted"
+        ]
+      ],
+      "parameters": {
+        "xgb": {
+          "reg_lambda": 10.0,
+          "n_estimators": 250,
+          "min_child_weight": 5,
+          "max_depth": 3,
+          "learning_rate": 0.03
+        },
+        "meta_alpha": null
+      },
+      "train_cell_keys": [
+        "B1c3",
+        "B1c4",
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c8",
+        "B1c9",
+        "B1c10",
+        "B1c11",
+        "B1c12",
+        "B1c13",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c22",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "model_sha256": "27dead53318205b2dab913ac2774947d4b52c4b99738bbcd7e6c718c8ef6f46e",
+      "nested_MAPE_percent": 6.649884972700584
+    },
+    {
+      "model": "Voting_equal_plus_top2",
+      "extra_features": [
+        "dq100_10_q05_ah",
+        "dq100_10_mean_ah"
+      ],
+      "base_features": [
+        [
+          "dq100_10_log_variance",
+          "dq100_10_q05_ah",
+          "dq100_10_mean_ah"
+        ],
+        [
+          "dq100_10_log_variance",
+          "cycle10_rms_c_timeweighted",
+          "dq100_10_q05_ah",
+          "dq100_10_mean_ah"
+        ],
+        [
+          "dq100_10_log_variance",
+          "cycle10_rms_c_timeweighted",
+          "dq100_10_q05_ah",
+          "dq100_10_mean_ah"
+        ]
+      ],
+      "parameters": {
+        "xgb": {
+          "reg_lambda": 10.0,
+          "n_estimators": 250,
+          "min_child_weight": 5,
+          "max_depth": 3,
+          "learning_rate": 0.03
+        },
+        "meta_alpha": null
+      },
+      "train_cell_keys": [
+        "B1c3",
+        "B1c4",
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c8",
+        "B1c9",
+        "B1c10",
+        "B1c11",
+        "B1c12",
+        "B1c13",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c22",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "model_sha256": "c387ed8f3e479136a7863ed951a571249d8f956bef03b995c90a87612d660e8d",
+      "nested_MAPE_percent": 6.4520153079842535
+    },
+    {
+      "model": "Stacking_Ridge_baseline",
+      "extra_features": [],
+      "base_features": [
+        [
+          "dq100_10_log_variance"
+        ],
+        [
+          "dq100_10_log_variance",
+          "cycle10_rms_c_timeweighted"
+        ],
+        [
+          "dq100_10_log_variance",
+          "cycle10_rms_c_timeweighted"
+        ]
+      ],
+      "parameters": {
+        "xgb": {
+          "reg_lambda": 10.0,
+          "n_estimators": 250,
+          "min_child_weight": 5,
+          "max_depth": 3,
+          "learning_rate": 0.03
+        },
+        "meta_alpha": 1.0
+      },
+      "train_cell_keys": [
+        "B1c3",
+        "B1c4",
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c8",
+        "B1c9",
+        "B1c10",
+        "B1c11",
+        "B1c12",
+        "B1c13",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c22",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "model_sha256": "db22979ce69fb4c6c668e3173024a8b1463ccac657848a0663c12bed772ecd2e",
+      "nested_MAPE_percent": 6.889656876701792,
+      "meta_standardized_coefficients_log10": [
+        0.026958250335263646,
+        0.03803126929198368,
+        0.023623608066292892
+      ]
+    },
+    {
+      "model": "Stacking_Ridge_plus_top2",
+      "extra_features": [
+        "dq100_10_q05_ah",
+        "dq100_10_mean_ah"
+      ],
+      "base_features": [
+        [
+          "dq100_10_log_variance",
+          "dq100_10_q05_ah",
+          "dq100_10_mean_ah"
+        ],
+        [
+          "dq100_10_log_variance",
+          "cycle10_rms_c_timeweighted",
+          "dq100_10_q05_ah",
+          "dq100_10_mean_ah"
+        ],
+        [
+          "dq100_10_log_variance",
+          "cycle10_rms_c_timeweighted",
+          "dq100_10_q05_ah",
+          "dq100_10_mean_ah"
+        ]
+      ],
+      "parameters": {
+        "xgb": {
+          "reg_lambda": 10.0,
+          "n_estimators": 250,
+          "min_child_weight": 5,
+          "max_depth": 3,
+          "learning_rate": 0.03
+        },
+        "meta_alpha": 1.0
+      },
+      "train_cell_keys": [
+        "B1c3",
+        "B1c4",
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c8",
+        "B1c9",
+        "B1c10",
+        "B1c11",
+        "B1c12",
+        "B1c13",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c22",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "model_sha256": "50a4f43d07580389e5f5502808e3b2174de9587ced2bd213e0fe2ee2bf3ed754",
+      "nested_MAPE_percent": 6.644962770645576,
+      "meta_standardized_coefficients_log10": [
+        0.033873125069054225,
+        0.03543925839680763,
+        0.019489979647964218
+      ]
+    }
+  ],
+  "B1_nested_CV_selected_research_model": "Voting_equal_plus_top2",
+  "external_targets_used_for_selection": false,
+  "default_core_model_changed": false
+}

@@ -1,0 +1,241 @@
+[
+  {
+    "repeat": 1,
+    "fold": 1,
+    "trial": 5,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 3.0,
+      "iterations": 250,
+      "depth": 3
+    },
+    "inner_MAPE_percent": 7.803009941827542
+  },
+  {
+    "repeat": 1,
+    "fold": 2,
+    "trial": 18,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 10.0,
+      "iterations": 250,
+      "depth": 2
+    },
+    "inner_MAPE_percent": 8.90225273674341
+  },
+  {
+    "repeat": 1,
+    "fold": 3,
+    "trial": 8,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10.0,
+      "iterations": 250,
+      "depth": 1
+    },
+    "inner_MAPE_percent": 9.637027579723743
+  },
+  {
+    "repeat": 1,
+    "fold": 4,
+    "trial": 30,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted",
+      "capacity_mad_relative"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 10.0,
+      "iterations": 250,
+      "depth": 2
+    },
+    "inner_MAPE_percent": 8.783697475531142
+  },
+  {
+    "repeat": 1,
+    "fold": 5,
+    "trial": 18,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 10.0,
+      "iterations": 250,
+      "depth": 2
+    },
+    "inner_MAPE_percent": 9.006938958051483
+  },
+  {
+    "repeat": 2,
+    "fold": 1,
+    "trial": 22,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 10.0,
+      "iterations": 250,
+      "depth": 1
+    },
+    "inner_MAPE_percent": 9.331260161322811
+  },
+  {
+    "repeat": 2,
+    "fold": 2,
+    "trial": 22,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 10.0,
+      "iterations": 250,
+      "depth": 1
+    },
+    "inner_MAPE_percent": 6.224280766373556
+  },
+  {
+    "repeat": 2,
+    "fold": 3,
+    "trial": 12,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 30.0,
+      "iterations": 250,
+      "depth": 3
+    },
+    "inner_MAPE_percent": 10.066701164664654
+  },
+  {
+    "repeat": 2,
+    "fold": 4,
+    "trial": 13,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 3.0,
+      "iterations": 100,
+      "depth": 2
+    },
+    "inner_MAPE_percent": 9.043604425384618
+  },
+  {
+    "repeat": 2,
+    "fold": 5,
+    "trial": 18,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 10.0,
+      "iterations": 250,
+      "depth": 2
+    },
+    "inner_MAPE_percent": 8.939544592792359
+  },
+  {
+    "repeat": 3,
+    "fold": 1,
+    "trial": 30,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted",
+      "capacity_mad_relative"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 10.0,
+      "iterations": 250,
+      "depth": 2
+    },
+    "inner_MAPE_percent": 8.762176691140137
+  },
+  {
+    "repeat": 3,
+    "fold": 2,
+    "trial": 20,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10.0,
+      "iterations": 250,
+      "depth": 1
+    },
+    "inner_MAPE_percent": 12.034951045366368
+  },
+  {
+    "repeat": 3,
+    "fold": 3,
+    "trial": 18,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 10.0,
+      "iterations": 250,
+      "depth": 2
+    },
+    "inner_MAPE_percent": 6.506997358862813
+  },
+  {
+    "repeat": 3,
+    "fold": 4,
+    "trial": 18,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 10.0,
+      "iterations": 250,
+      "depth": 2
+    },
+    "inner_MAPE_percent": 9.265413019796071
+  },
+  {
+    "repeat": 3,
+    "fold": 5,
+    "trial": 5,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {
+      "learning_rate": 0.07,
+      "l2_leaf_reg": 3.0,
+      "iterations": 250,
+      "depth": 3
+    },
+    "inner_MAPE_percent": 7.313557564863155
+  }
+]

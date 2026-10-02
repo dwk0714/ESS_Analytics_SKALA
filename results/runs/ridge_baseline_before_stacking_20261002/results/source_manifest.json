@@ -1,0 +1,23 @@
+[
+  {
+    "batch": "B1",
+    "filename": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "path": "../archive/2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "bytes": 3025320241,
+    "sha256": "9d928ab978f0e3c70b31cb833a749fedd35094d01af76475d69b40aa3497f5ba"
+  },
+  {
+    "batch": "B2",
+    "filename": "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+    "path": "../archive/2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+    "bytes": 2022599329,
+    "sha256": "3487db505ad08b6c805f41dd0560e73b54077c76aca04f706f06e2356ccf7845"
+  },
+  {
+    "batch": "B3",
+    "filename": "2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+    "path": "../archive/2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+    "bytes": 3236690412,
+    "sha256": "62c30e413b63e6144720e016deed3661fac8468641794a5807b123fe84717998"
+  }
+]

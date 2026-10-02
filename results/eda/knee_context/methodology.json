@@ -1,0 +1,41 @@
+{
+  "files": {
+    "B1": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "B2": "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+    "B3": "2018-04-12_batchdata_updated_struct_errorcorrect.mat"
+  },
+  "selected_cells": "no high-QD cell flag and finite candidate_knee_cycle",
+  "n_candidates": 129,
+  "windows": [
+    50,
+    100
+  ],
+  "before": "k-width <= actual cycle < k",
+  "after": "k < actual cycle <= k+width",
+  "minimum_valid_fraction": 0.8,
+  "require_full_observation_windows": true,
+  "qd_qc": "Use existing knee quality_flags; preserve all other decreases and EOL crossings.",
+  "ir_qc": "IR<=0 missing",
+  "chargetime_primary": "median of positive finite values; >60 mean sensitivity only",
+  "chargetime_definition_source": "https://raw.githubusercontent.com/chueh-ermon/BMS-autoanalysis/master/cell_analysis.m",
+  "chargetime_source_definition": "Time to charged capacity 0.88Ah; source fallback20min if threshold not found, previous value if <5min. Local generation version not proved.",
+  "chargetime_candidate_flags": "20min and repeated previous values are possible source-processing flags, not confirmed imputation; neither automatically excluded.",
+  "paired_unit": "one file-local cell; repeated cycles not independent observations",
+  "within_cell_detrending": "Subtract separate linear cycle fits from QD and signal before residual Pearson.",
+  "qd_qc_ratio": "QD/QCharge summary ratio, not a validated high-precision coulombic efficiency diagnosis",
+  "p_values": "omitted; exploratory many comparisons, autocorrelation and confounding",
+  "subsets": [
+    "ALL",
+    "B1",
+    "B2",
+    "B3",
+    "B2_standard",
+    "B2_newstructure",
+    "source_issue_excluded",
+    "cutoff_stable",
+    "strictly_before_life_label"
+  ],
+  "reaches_label": "k+window >= provided life; after_label uses strict >; missing lives unknown, never imputed",
+  "raw_sources_metadata_unchanged": true,
+  "role": "Retrospective description, not mechanistic proof or predictive validation"
+}

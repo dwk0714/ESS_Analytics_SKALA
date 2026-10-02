@@ -1,0 +1,33 @@
+{
+  "batches": {
+    "B1": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "B2": "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+    "B3": "2018-04-12_batchdata_updated_struct_errorcorrect.mat"
+  },
+  "cycle_number": 10,
+  "current_unit": "C-rate",
+  "time_unit": "minutes",
+  "unit_source": "https://github.com/chueh-ermon/BMS-autoanalysis/blob/c82ab7704211a6aee75bd926714b82d1f95e1a0e/cell_analysis.m",
+  "unit_audit": "artifacts/ess_eda/domain_review.md",
+  "index_mapping": "Find summary.cycle == 10; use same zero-based row in cycles.I/t; record counts/alignment QC.",
+  "charge_boundary": "Samples strictly before the first finite I < -0.5 C.",
+  "active_interval": "Both adjacent I > 0.1 C, finite I/t endpoints, and positive dt.",
+  "mean": "sum(dt*(I0+I1)/2)/sum(dt)",
+  "rms": "sqrt(sum(dt*(I0^2+I0*I1+I1^2)/3)/sum(dt))",
+  "variance": "E[I^2]-E[I]^2, active-time population variance",
+  "above_5c": "Exact fraction of each active interval above 5 C assuming linear interpolation of endpoints, active-time denominator.",
+  "no_early100_averaging": true,
+  "life_missing_not_imputed": true,
+  "late20_role": "Retrospective descriptive outcome; never an early-life input.",
+  "correlation_subsets": [
+    "all_cycle10_valid",
+    "no_high_qd_cell_flag"
+  ],
+  "correlation_units": "One row per file-local cell; physical cell independence is not proved.",
+  "limitations": [
+    "Cycle 10 is one observed waveform; it need not represent the entire early-100 window or lifetime.",
+    "Positive-current gating includes any pre-discharge CC/CV segments and excludes rests; no SOC or protocol-step annotation is inferred.",
+    "The strict 5 C threshold is sensitive to measurement/control fluctuations near 5 C.",
+    "Exploratory correlations have batch/protocol confounding and unadjusted nominal p-values."
+  ]
+}

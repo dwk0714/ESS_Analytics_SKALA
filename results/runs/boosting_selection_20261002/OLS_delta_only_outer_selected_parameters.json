@@ -1,0 +1,152 @@
+[
+  {
+    "repeat": 1,
+    "fold": 1,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 6.286046899985117
+  },
+  {
+    "repeat": 1,
+    "fold": 2,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 7.895391038791912
+  },
+  {
+    "repeat": 1,
+    "fold": 3,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 7.179573172201083
+  },
+  {
+    "repeat": 1,
+    "fold": 4,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 9.705369271174726
+  },
+  {
+    "repeat": 1,
+    "fold": 5,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 8.125058443616929
+  },
+  {
+    "repeat": 2,
+    "fold": 1,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 7.840876597846301
+  },
+  {
+    "repeat": 2,
+    "fold": 2,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 6.503641354748094
+  },
+  {
+    "repeat": 2,
+    "fold": 3,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 7.2577093656053675
+  },
+  {
+    "repeat": 2,
+    "fold": 4,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 7.805303250610551
+  },
+  {
+    "repeat": 2,
+    "fold": 5,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 7.430002475714473
+  },
+  {
+    "repeat": 3,
+    "fold": 1,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 7.640454634012839
+  },
+  {
+    "repeat": 3,
+    "fold": 2,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 7.598079377429805
+  },
+  {
+    "repeat": 3,
+    "fold": 3,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 6.600631077727528
+  },
+  {
+    "repeat": 3,
+    "fold": 4,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 7.906476248448301
+  },
+  {
+    "repeat": 3,
+    "fold": 5,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance"
+    ],
+    "parameters": {},
+    "inner_MAPE_percent": 7.120171578023432
+  }
+]

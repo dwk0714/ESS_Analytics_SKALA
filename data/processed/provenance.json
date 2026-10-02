@@ -1,0 +1,32 @@
+{
+  "status": "DAY1_existing_values_repackaged",
+  "day2_raw_reextraction_executed": false,
+  "day2_model_training_executed": false,
+  "day2_evaluation_executed": false,
+  "rows": 139,
+  "feature_columns": [
+    "dq100_10_log_variance",
+    "cycle10_rms_c_timeweighted",
+    "capacity_mad_relative"
+  ],
+  "source_files": [
+    {
+      "file": "artifacts/ess_eda/features/row_metadata_all.csv",
+      "sha256": "8a76095287678fd336f3f45f88b162728b4264e5d96ce4c7d5bef78a201e763c"
+    },
+    {
+      "file": "artifacts/ess_eda/features/y_cycle_life_all.csv",
+      "sha256": "5348332a64abb25ce71274488a14920b634ac19ebfbf67ba5c31badcdb43a99f"
+    },
+    {
+      "file": "artifacts/ess_eda/features/features_with_identifiers_for_audit.csv",
+      "sha256": "ffb3990b0842440f536dfb102d17c9147be5b565e7053615405aed57b9f5190f"
+    },
+    {
+      "file": "artifacts/ess_eda/current/current_features.csv",
+      "sha256": "64840875ed02f4b0c5dec57018bf580b938476b51fb5efb9ad77d33b91ecfd91"
+    }
+  ],
+  "target_binding": "DAY1 all_row_index binds y row; all final rows carry explicit cell_key",
+  "raw_dataset": "https://www.kaggle.com/datasets/itshpark/data-driven-prediction-of-battery-cycle"
+}

@@ -1,0 +1,10 @@
+feature_a,feature_b,n,pearson_r,spearman_rho
+dq100_10_log_variance,dq100_10_log_variance,129,1.0,1.0
+dq100_10_log_variance,cycle10_rms_c_timeweighted,129,0.545305253181793,0.32564847942754926
+dq100_10_log_variance,capacity_mad_relative,129,0.5585240420237432,0.5828935599284437
+cycle10_rms_c_timeweighted,dq100_10_log_variance,129,0.545305253181793,0.32564847942754926
+cycle10_rms_c_timeweighted,cycle10_rms_c_timeweighted,129,1.0,1.0
+cycle10_rms_c_timeweighted,capacity_mad_relative,129,0.29155084786040547,0.3507938282647585
+capacity_mad_relative,dq100_10_log_variance,129,0.5585240420237431,0.5828935599284437
+capacity_mad_relative,cycle10_rms_c_timeweighted,129,0.29155084786040547,0.3507938282647585
+capacity_mad_relative,capacity_mad_relative,129,1.0,1.0

@@ -1,0 +1,20 @@
+{
+  "elapsed_seconds": 1.7889602499999455,
+  "B1_CV_selected_models": [
+    {
+      "scenario": "provided_labels",
+      "model": "Stacking_Ridge"
+    },
+    {
+      "scenario": "unfinished_b1_excluded_sensitivity",
+      "model": "OLS_two_features"
+    }
+  ],
+  "test_used_for_selection": false,
+  "limitations": [
+    "Base XGBoost settings were selected using the same B1 development dataset",
+    "Meta training uses group OOF predictions; outer validation is excluded",
+    "CV still has model-selection optimism; this is not a fully nested tuning benchmark",
+    "B2/B3 were already observed in earlier experiments"
+  ]
+}

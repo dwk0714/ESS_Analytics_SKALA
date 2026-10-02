@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "saved_models_reloaded": 10,
+  "outer_fold_models_refitted": 150,
+  "prediction_metric_checks": 180,
+  "original_artifacts_unchanged": true,
+  "group_boundaries_verified": true,
+  "external_targets_used_for_selection": false
+}

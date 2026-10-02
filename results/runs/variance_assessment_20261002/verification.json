@@ -1,0 +1,36 @@
+{
+  "source_files_unchanged": true,
+  "source_sha256": {
+    "src/preprocess.py": "edcd430b8fc3862621c50544bdbc5823c50ff4f544d55e95173e32740f89dfba",
+    "src/features.py": "73b2c20dc47c2a13be63209cdc6f149eafc118bb6f53ac1096bb5ff5aa823e00",
+    "data/processed/cell_features.csv": "1ce8e41ba53843ad0464de5dc37f3fc9405210650b100418ef7e0d6d1c388fae",
+    "results/split_manifest.csv": "152984a763e19a3351c94e766bf12b1ccebb4556ace27b39fa4f1c80c798bbaa",
+    "results/runs/model_comparison_20261002/provided_labels/predictions.csv": "077c703f7617d44cdf7ff12bf644f28e54347d6c5344a343904f1eba47668d2a",
+    "results/runs/model_comparison_20261002/provided_labels/cv_predictions.csv": "2a266e1340c56d86a1191ccff4be32476c967cf9a1ed0f59a961335e9147c640"
+  },
+  "raw_mode": "HDF5 read-only, cycles <=100",
+  "n_all_cells": 139,
+  "n_labeled": 129,
+  "n_train_oof_per_model": 35,
+  "n_short_in_B1_train": 0,
+  "delta_variance_agrees_with_existing_feature": true,
+  "capacity_mad_agrees_with_existing_feature": true,
+  "n_fits": 0,
+  "inputs_selected": false,
+  "models_changed": false,
+  "group_cutoffs": {
+    "short": "stored cycle_life <500",
+    "mid": "500<=stored cycle_life<=1000",
+    "long": "stored cycle_life >1000"
+  },
+  "limitations": [
+    "Life groups are retrospective target-based diagnostics only.",
+    "Between-cell and within-cell variation are not equivalent to conditional model error variance.",
+    "Qd variance includes trend and potential spikes, not independent noise replicates.",
+    "Delta-Q variance across correlated voltage points summarizes curve shape, not measurement-noise variance.",
+    "B2 has only 3 long-lived labels; pooled groups confound batch with lifetime.",
+    "Groups truncate the target distribution; larger raw long-life variance alone does not prove heteroscedasticity.",
+    "Stored labels are unchanged and include the documented unfinished/near-threshold label limitations.",
+    "OOF diagnostics use selected model CV predictions and are not nested evaluation."
+  ]
+}

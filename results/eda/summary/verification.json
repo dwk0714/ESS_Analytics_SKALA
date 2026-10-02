@@ -1,0 +1,28 @@
+{
+  "scope": "three explicitly selected files",
+  "n_file_local_cells": 139,
+  "n_finite_life": 129,
+  "n_missing_life": 10,
+  "label_groups": [
+    28,
+    65,
+    36
+  ],
+  "cycles_summary_mismatches": 0,
+  "cycle_fields_checked": 1251,
+  "raw_source_metadata_unchanged": true,
+  "qd100_qc_missing_keys": [
+    "B2c37",
+    "B2c38",
+    "B2c39",
+    "B2c40"
+  ],
+  "n_eol_compatible_labeled": 119,
+  "n_ir_life_pairs": 123,
+  "centered_p_values_omitted": true,
+  "old_four_batch_script_absent": true,
+  "png_count": 11,
+  "findings_present": true,
+  "findings_local_links_verified": true,
+  "vif_basis_count": 3
+}

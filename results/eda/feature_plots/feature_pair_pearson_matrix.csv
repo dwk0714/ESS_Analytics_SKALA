@@ -1,0 +1,4 @@
+,dq100_10_log_variance,cycle10_rms_c_timeweighted,capacity_mad_relative
+dq100_10_log_variance,1.0,0.545305253181793,0.5585240420237432
+cycle10_rms_c_timeweighted,0.545305253181793,1.0,0.29155084786040547
+capacity_mad_relative,0.5585240420237431,0.29155084786040547,1.0
