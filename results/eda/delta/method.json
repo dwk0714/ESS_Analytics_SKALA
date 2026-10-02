@@ -1,0 +1,18 @@
+{
+  "voltage_grid": {
+    "points": 1000,
+    "min_V": 2.0,
+    "max_V": 3.5,
+    "equal_for_all_cells": true
+  },
+  "delta_definition": "Qdlin(cycle 100) - Qdlin(cycle 10)",
+  "variance_ddof": 1,
+  "life_imputation": false,
+  "analysis_unit": "one row per cell",
+  "selected_files": [
+    "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+    "2018-04-12_batchdata_updated_struct_errorcorrect.mat"
+  ],
+  "qc_note": "Terminal QD <=0.89 is a sensitivity proxy, not certified EOL or censoring classification."
+}

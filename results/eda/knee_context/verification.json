@@ -1,0 +1,19 @@
+{
+  "summary_candidate_cells": 129,
+  "finite_life_candidates": 127,
+  "paired50_complete": 129,
+  "paired50_ir": 123,
+  "paired100_complete": 127,
+  "paired100_ir": 121,
+  "paired50_after_life_label": 0,
+  "paired100_after_life_label": 14,
+  "ir_increase_cells": 115,
+  "local_fade_acceleration_cells": 127,
+  "independent_summary_values_checked": 240,
+  "independent_summary_max_abs_error": 7.1e-15,
+  "independent_current_cycle_mappings_checked": 258,
+  "independent_current_correlations_checked": 36,
+  "raw_files_opened_readonly": true,
+  "findings_links_valid": true,
+  "paired100_reaches_or_passes_life_label": 15
+}

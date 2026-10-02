@@ -1,0 +1,123 @@
+{
+  "scenario": "provided_labels",
+  "selection_scope": "B1 group 5-fold CV only",
+  "stacking_inner_folds": 3,
+  "stacking_inner_split": "charging-policy GroupKFold",
+  "test_used_for_selection": false,
+  "models": [
+    {
+      "model": "Voting_equal",
+      "meta_alpha": null,
+      "CV_MAPE_percent": 6.830256744166544,
+      "train_cell_keys": [
+        "B1c3",
+        "B1c4",
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c8",
+        "B1c9",
+        "B1c10",
+        "B1c11",
+        "B1c12",
+        "B1c13",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c22",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "base_XGBoost_features": [
+        "dq100_10_log_variance",
+        "cycle10_rms_c_timeweighted"
+      ],
+      "base_XGBoost_parameters": {
+        "reg_lambda": 10.0,
+        "n_estimators": 200,
+        "min_child_weight": 5,
+        "max_depth": 3,
+        "learning_rate": 0.03
+      },
+      "model_sha256": "5cef963ec98caf164dd658096c120eeb52457561acf78a6cc3fccddefebc214a"
+    },
+    {
+      "model": "Stacking_Ridge",
+      "meta_alpha": 1.0,
+      "CV_MAPE_percent": 6.49469516841808,
+      "train_cell_keys": [
+        "B1c3",
+        "B1c4",
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c8",
+        "B1c9",
+        "B1c10",
+        "B1c11",
+        "B1c12",
+        "B1c13",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c22",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "base_XGBoost_features": [
+        "dq100_10_log_variance",
+        "cycle10_rms_c_timeweighted"
+      ],
+      "base_XGBoost_parameters": {
+        "reg_lambda": 10.0,
+        "n_estimators": 200,
+        "min_child_weight": 5,
+        "max_depth": 3,
+        "learning_rate": 0.03
+      },
+      "model_sha256": "841fcc91da2bb7d07d5d2940379642081d51886153e620bc5405f9b4dbf874a9",
+      "meta_standardized_coefficients_log10": [
+        0.022724282299931287,
+        0.027699679960883357,
+        0.03804437433070838
+      ],
+      "meta_intercept_log10": 2.908507070444695
+    }
+  ]
+}

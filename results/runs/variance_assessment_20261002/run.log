@@ -1,0 +1,66 @@
+Verification: {"source_files_unchanged": true, "raw_mode": "HDF5 read-only, cycles <=100", "n_all_cells": 139, "n_labeled": 129, "n_train_oof_per_model": 35, "n_short_in_B1_train": 0, "delta_variance_agrees_with_existing_feature": true, "capacity_mad_agrees_with_existing_feature": true, "n_fits": 0, "inputs_selected": false, "models_changed": false, "group_cutoffs": {"short": "stored cycle_life <500", "mid": "500<=stored cycle_life<=1000", "long": "stored cycle_life >1000"}, "limitations": ["Life groups are retrospective target-based diagnostics only.", "Between-cell and within-cell variation are not equivalent to conditional model error variance.", "Qd variance includes trend and potential spikes, not independent noise replicates.", "Delta-Q variance across correlated voltage points summarizes curve shape, not measurement-noise variance.", "B2 has only 3 long-lived labels; pooled groups confound batch with lifetime.", "Groups truncate the target distribution; larger raw long-life variance alone does not prove heteroscedasticity.", "Stored labels are unchanged and include the documented unfinished/near-threshold label limitations.", "OOF diagnostics use selected model CV predictions and are not nested evaluation."]}
+
+Lifetime dispersion:
+ scope batch   life_group  n        mean  median    min    max         sd     variance   mad    iqr  log10_n  log10_mean  log10_median  log10_min  log10_max  log10_sd  log10_variance  log10_mad  log10_iqr role
+batch    B1   long_>1000 10 1120.900000  1125.5 1014.0 1227.0  86.528672  7487.211111  73.0 135.50       10    3.048398      3.050890   3.006038   3.088845  0.033617        0.001130   0.028669   0.052626  NaN
+batch    B1 mid_500_1000 36  768.000000   772.5  534.0  966.0 118.553665 14054.971429 100.5 190.50       36    2.880085      2.887811   2.727541   2.984977  0.069531        0.004835   0.053201   0.107262  NaN
+batch    B2   long_>1000  3 1118.333333  1140.0 1029.0 1186.0  80.711420  6514.333333  46.0  78.50        3    3.047802      3.056905   3.012415   3.074085  0.031827        0.001013   0.017180   0.030835  NaN
+batch    B2 mid_500_1000  8  767.000000   800.0  503.0  997.0 174.556581 30470.000000  72.5 145.50        8    2.873592      2.903063   2.701568   2.998695  0.109022        0.011886   0.037420   0.087083  NaN
+batch    B2   short_<500 28  449.035714   449.5  392.0  499.0  32.430532  1051.739418  24.5  49.25       28    2.651172      2.652729   2.593286   2.698101  0.031739        0.001007   0.023830   0.047645  NaN
+batch    B3   long_>1000 23 1271.478261  1155.0 1002.0 1935.0 291.973515 85248.533597 116.0 297.00       23    3.094599      3.062582   3.000868   3.286681  0.091131        0.008305   0.045966   0.107523  NaN
+batch    B3 mid_500_1000 21  827.666667   828.0  541.0  989.0  99.614925  9923.133333  42.0  80.00       21    2.914493      2.918030   2.733197   2.995196  0.057168        0.003268   0.022608   0.041591  NaN
+
+Within vs between:
+       scope batch   life_group  n_cells  qd_median_within_cell_variance_ah2  qd_median_pointwise_between_cell_variance_ah2  qd_variance_of_cell_early_means_ah2  dq_median_within_curve_variance_ah2  dq_median_pointwise_between_cell_variance_ah2
+      batch    B1   long_>1000       10                        1.074447e-06                                       0.000012                             0.000008                             0.000051                                       0.000016
+      batch    B1 mid_500_1000       36                        6.825618e-07                                       0.000068                             0.000068                             0.000164                                       0.000049
+      batch    B2   long_>1000        3                        1.042313e-05                                       0.000299                             0.000299                             0.000054                                       0.000007
+      batch    B2 mid_500_1000        8                        5.987470e-06                                       0.000024                             0.000022                             0.000070                                       0.000051
+      batch    B2   short_<500       28                        9.259458e-06                                       0.000100                             0.000098                             0.000358                                       0.000089
+      batch    B3   long_>1000       23                        4.257021e-07                                       0.000047                             0.000047                             0.000048                                       0.000009
+      batch    B3 mid_500_1000       21                        4.920444e-07                                       0.000080                             0.000079                             0.000081                                       0.000049
+all_batches   NaN   long_>1000       36                        5.076501e-07                                       0.000105                             0.000106                             0.000049                                       0.000012
+all_batches   NaN mid_500_1000       65                        6.651498e-07                                       0.000174                             0.000173                             0.000112                                       0.000050
+all_batches   NaN   short_<500       28                        9.259458e-06                                       0.000100                             0.000098                             0.000358                                       0.000089
+
+Ridge residual dispersion:
+          model      role batch   life_group                    signal  n        mean      median         min        max         sd     variance        mad        iqr  MAPE_percent
+Ridge_existing   test_b2    B2   long_>1000           residual_cycles  3 -169.650368 -204.911481 -241.452853 -62.586772  94.502795  8930.778244  36.541372  89.433040     14.846631
+Ridge_existing   test_b2    B2   long_>1000            residual_log10  3   -0.070998   -0.082376   -0.103364  -0.027253   0.039311     0.001545   0.020987   0.038056     14.846631
+Ridge_existing   test_b2    B2   long_>1000 residual_relative_percent  3  -14.846631  -17.277528  -21.180075  -6.082291   7.836946    61.417715   3.902547   7.548892     14.846631
+Ridge_existing   test_b2    B2 mid_500_1000           residual_cycles  8  116.814326  157.917899  -74.527071 219.569174 108.884369 11855.805722  51.699442 134.417094     20.952978
+Ridge_existing   test_b2    B2 mid_500_1000            residual_log10  8    0.069645    0.077641   -0.033742   0.154478   0.066766     0.004458   0.049100   0.076363     20.952978
+Ridge_existing   test_b2    B2 mid_500_1000 residual_relative_percent  8   18.595911   19.587325   -7.475133  42.717738  17.854827   318.794854  14.135311  20.731728     20.952978
+Ridge_existing   test_b2    B2   short_<500           residual_cycles 28  172.766356  196.604770  -17.520599 298.233122  82.478879  6802.765424  39.549341  81.329353     39.168182
+Ridge_existing   test_b2    B2   short_<500            residual_log10 28    0.138413    0.149708   -0.015780   0.245232   0.063617     0.004047   0.032401   0.062389     39.168182
+Ridge_existing   test_b2    B2   short_<500 residual_relative_percent 28   38.913299   41.159300   -3.568350  75.886291  19.326215   373.502583  10.457344  20.271497     39.168182
+Ridge_existing   test_b3    B3   long_>1000           residual_cycles 23 -279.700191 -215.930176 -985.601177  18.829782 243.185000 59138.944384 107.500896 198.324901     20.145648
+Ridge_existing   test_b3    B3   long_>1000            residual_log10 23   -0.102028   -0.098175   -0.309232   0.007520   0.072251     0.005220   0.035198   0.074720     20.145648
+Ridge_existing   test_b3    B3   long_>1000 residual_relative_percent 23  -19.936776  -20.232601  -50.935461   1.746733  12.425303   154.388166   6.733967  14.003784     20.145648
+Ridge_existing   test_b3    B3 mid_500_1000           residual_cycles 21    9.264490   18.340421 -109.213541 160.333813  68.186100  4649.344238  43.042989  84.547134      6.728869
+Ridge_existing   test_b3    B3 mid_500_1000            residual_log10 21    0.005870    0.009186   -0.050819   0.079696   0.035846     0.001285   0.021608   0.042046      6.728869
+Ridge_existing   test_b3    B3 mid_500_1000 residual_relative_percent 21    1.692509    2.137578  -11.042825  20.142439   8.492514    72.122798   4.957506   9.812269      6.728869
+Ridge_existing train_oof    B1   long_>1000           residual_cycles  7  -47.815072  -92.327384 -128.964176 149.717369 102.802749 10568.405237  28.701898  83.760638      9.311057
+Ridge_existing train_oof    B1   long_>1000            residual_log10  7   -0.023842   -0.039932   -0.058890   0.050000   0.039973     0.001598   0.013040   0.036327      9.311057
+Ridge_existing train_oof    B1   long_>1000 residual_relative_percent  7   -4.987418   -8.784718  -12.680843  12.201905   9.132879    83.409473   2.698136   7.958226      9.311057
+Ridge_existing train_oof    B1 mid_500_1000           residual_cycles 28    6.131746   -4.402543 -127.905654 175.870282  65.815515  4331.681981  35.455590  70.603902      6.405396
+Ridge_existing train_oof    B1 mid_500_1000            residual_log10 28    0.003635   -0.002041   -0.068548   0.087492   0.036961     0.001366   0.020899   0.038184      6.405396
+Ridge_existing train_oof    B1 mid_500_1000 residual_relative_percent 28    1.198695   -0.468865  -14.601102  22.318564   8.823010    77.845508   4.794541   8.830549      6.405396
+Ridge_existing     valid    B1   long_>1000           residual_cycles  3  422.564542  465.751779  310.008477 491.933371  98.351511  9673.019808  26.181592  90.962447     35.734101
+Ridge_existing     valid    B1   long_>1000            residual_log10  3    0.132144    0.143448    0.101537   0.151445   0.026806     0.000719   0.007997   0.024954     35.734101
+Ridge_existing     valid    B1   long_>1000 residual_relative_percent  3   35.734101   39.138805   26.338868  41.724629   8.238593    67.874416   2.585824   7.692880     35.734101
+Ridge_existing     valid    B1 mid_500_1000           residual_cycles  8   -5.748519  -11.870849 -122.154535 128.012203  85.996853  7395.458736  74.988009 131.601363      8.810764
+Ridge_existing     valid    B1 mid_500_1000            residual_log10  8   -0.002221   -0.006445   -0.062087   0.071161   0.047264     0.002234   0.042827   0.073829      8.810764
+Ridge_existing     valid    B1 mid_500_1000 residual_relative_percent  8    0.009430   -1.472449  -13.321105  17.804201  10.970745   120.357247  10.210737  16.968826      8.810764
+
+Exploratory tests:
+                              scope                    signal  n_short  n_long  statistic   pvalue                                                                        interpretation  n_mid  spearman_life_abs_centered_residual  spearman_pvalue
+all_batches_descriptive_confounded                cycle_life     28.0      36  12.125875 0.000917                                  descriptive; not causal; no multiple-test adjustment    NaN                                  NaN              NaN
+all_batches_descriptive_confounded     dq100_10_log_variance     28.0      36   4.778034 0.032610                                  descriptive; not causal; no multiple-test adjustment    NaN                                  NaN              NaN
+all_batches_descriptive_confounded     capacity_mad_relative     28.0      36  12.010920 0.000966                                  descriptive; not causal; no multiple-test adjustment    NaN                                  NaN              NaN
+           B2_only_tiny_long_group                cycle_life     28.0       3   3.519562 0.070747                                  descriptive; not causal; no multiple-test adjustment    NaN                                  NaN              NaN
+           B2_only_tiny_long_group     dq100_10_log_variance     28.0       3   0.652412 0.425828                                  descriptive; not causal; no multiple-test adjustment    NaN                                  NaN              NaN
+           B2_only_tiny_long_group     capacity_mad_relative     28.0       3   1.347414 0.255197                                  descriptive; not causal; no multiple-test adjustment    NaN                                  NaN              NaN
+  B1_train35_Ridge_OOF_mid_vs_long           residual_cycles      NaN       7   0.458620 0.502990 OOF folds reuse training; selected CV is optimistic; low-power descriptive diagnostic   28.0                             0.253659         0.141470
+  B1_train35_Ridge_OOF_mid_vs_long            residual_log10      NaN       7   0.011133 0.916608 OOF folds reuse training; selected CV is optimistic; low-power descriptive diagnostic   28.0                             0.095805         0.584057
+  B1_train35_Ridge_OOF_mid_vs_long residual_relative_percent      NaN       7   0.040249 0.842225 OOF folds reuse training; selected CV is optimistic; low-power descriptive diagnostic   28.0                             0.082219         0.638681

@@ -1,0 +1,33 @@
+{
+  "n_rows": 139,
+  "n_targets": 129,
+  "candidate_count": 9,
+  "all_9_candidate_values_exact_equal_to_research_including_nan": true,
+  "all_3_legacy_values_exact_equal": true,
+  "target_values_exact_equal": true,
+  "legacy_fingerprint": "b15c8586d5f1720f52c89045df6ce1a6f19e95d7a098293a8a945de3dbe8fe30",
+  "extended_fingerprint": "87861b91703321a8b5e863522aee3955b40736b205e46809531a158eafb43692",
+  "sources": [
+    {
+      "batch": "B1",
+      "filename": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "path": "../archive/2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "bytes": 3025320241,
+      "sha256": "9d928ab978f0e3c70b31cb833a749fedd35094d01af76475d69b40aa3497f5ba"
+    },
+    {
+      "batch": "B2",
+      "filename": "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+      "path": "../archive/2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+      "bytes": 2022599329,
+      "sha256": "3487db505ad08b6c805f41dd0560e73b54077c76aca04f706f06e2356ccf7845"
+    },
+    {
+      "batch": "B3",
+      "filename": "2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+      "path": "../archive/2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+      "bytes": 3236690412,
+      "sha256": "62c30e413b63e6144720e016deed3661fac8468641794a5807b123fe84717998"
+    }
+  ]
+}

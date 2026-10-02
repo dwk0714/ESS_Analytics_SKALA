@@ -1,0 +1,53 @@
+{
+  "batch_mapping": {
+    "B1": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "B2": "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+    "B3": "2018-04-12_batchdata_updated_struct_errorcorrect.mat"
+  },
+  "sources": [
+    {
+      "batch": "B1",
+      "file": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "bytes": 3025320241,
+      "mtime_ns": 1713395514000000000,
+      "n_cells": 46
+    },
+    {
+      "batch": "B2",
+      "file": "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+      "bytes": 2022599329,
+      "mtime_ns": 1713395738000000000,
+      "n_cells": 47
+    },
+    {
+      "batch": "B3",
+      "file": "2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+      "bytes": 3236690412,
+      "mtime_ns": 1713395890000000000,
+      "n_cells": 46
+    }
+  ],
+  "nominal_capacity_ah": 1.1,
+  "eol_ah": 0.88,
+  "endpoint_near_eol_upper_ah": 0.89,
+  "endpoint_near_eol_reason": "0.01 Ah last-record QC tolerance; does not prove actual EOL or censoring",
+  "qd_high_qc_ah": 1.65,
+  "endpoint_jump_qc_ah": 0.1,
+  "charge_time_high_qc_min": 60.0,
+  "charge_time_qc": "Positive raw mean retained, median and mean screening >60min supplied as sensitivity; high values do not prove measurement error.",
+  "source_collection_issue_index_candidate": "B3c37: official same-date file raw MATLAB batch3(38) removed upfront for a collection issue; channel_id is serialized uint32 MATLAB string, actual channel decoding not verified. Index-based exclusion sensitivity only. Later shifted MATLAB indices not applied.",
+  "source_collection_issue_url": "https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation/blob/master/LoadData.m",
+  "physical_identity": "File-local cell_key only. Serialized barcode/channel numeric arrays are not physical identifiers; cross-file deduplication unverified.",
+  "qd_masking": "No deletion below EOL. Full/late diagnostic QC slopes mask only QD>1.65 and nonpositive/nonfinite QD. Raw-positive early features include high-QD observations with flags.",
+  "placeholder": "Only first all-zero QD/QC/IR/temperature/charge-time row is placeholder; other zero IR treated as missing.",
+  "early_window": "Actual summary cycles 2..100; all 100-cycle features missing when observed max<100 or finite life label<100. Missing life is never imputed. A separate varcharge file is explicitly excluded by user.",
+  "centering": "Pairwise-valid x/y batch mean subtraction, then Pearson; additionally batch+newstructure string flag centering. These are descriptive, not causal adjustments. Adjusted p-values intentionally missing.",
+  "sensitivity": "EOL-compatible endpoint <=0.89, positive finite <=1.65, no endpoint jump>0.10; stricter subset also no QD>1.65 anywhere. These are descriptive QC subsets, not verified EOL labels.",
+  "policy": "Strip -newstructure for text overlap only. Constant C1(Q1)-C2 0..80% ideal effective C=0.8/(s/C1+(0.8-s)/C2). Variable policy tag never assigned as fixed C1/C2.",
+  "policy_groups": "Policy statistics and plots preserve raw policy/newstructure variants; canonical string used for overlap only. C2-active correlations omit switch=80%, where second stage has zero SOC span. Slowcycle tags are separate and not assumed constant two-stage protocols.",
+  "late_features": "Full-curve and last-50-cycle slopes use future observations and must not be early-life model features.",
+  "stats": "Sample std and pandas bias-corrected skew; pairwise correlations n>=3, nonconstant pairs only; p values exploratory, unadjusted.",
+  "multicollinearity": "Feature Pearson/Spearman pairwise n; |r|>0.85 list. VIF is descriptive complete-case sensitivity, with/without exact relation qd_delta=qd100-qd2; no predictive model trained.",
+  "raw_changed": false,
+  "models_fitted": false
+}

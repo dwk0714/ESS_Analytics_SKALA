@@ -1,0 +1,22 @@
+trial,features,parameters,inner_MAPE_percent
+0,['dq100_10_log_variance'],{'alpha': 0.001},7.287100620367914
+1,['dq100_10_log_variance'],{'alpha': 0.01},7.2873648256100125
+2,['dq100_10_log_variance'],{'alpha': 0.1},7.290002839100442
+3,['dq100_10_log_variance'],{'alpha': 1.0},7.354660815724075
+4,['dq100_10_log_variance'],{'alpha': 10.0},9.23681121672538
+5,['dq100_10_log_variance'],{'alpha': 100.0},15.939869034672679
+6,['dq100_10_log_variance'],{'alpha': 1000.0},18.45445546166495
+7,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']",{'alpha': 0.001},6.789037179033684
+8,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']",{'alpha': 0.01},6.788474664881254
+9,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']",{'alpha': 0.1},6.782962441857188
+10,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']",{'alpha': 1.0},6.744890466198633
+11,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']",{'alpha': 10.0},7.717166655658776
+12,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']",{'alpha': 100.0},14.183017282577847
+13,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']",{'alpha': 1000.0},18.147243508473046
+14,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']",{'alpha': 0.001},7.904602159260967
+15,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']",{'alpha': 0.01},7.899158257289248
+16,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']",{'alpha': 0.1},7.847538412252349
+17,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']",{'alpha': 1.0},7.495388718857288
+18,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']",{'alpha': 10.0},7.7591369611344625
+19,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']",{'alpha': 100.0},12.880951094596647
+20,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']",{'alpha': 1000.0},17.852682020555868

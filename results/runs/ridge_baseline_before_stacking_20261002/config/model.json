@@ -1,0 +1,39 @@
+{
+  "task": "regression",
+  "forecast_cycle": 100,
+  "raw_dir": "data/raw",
+  "dataset_url": "https://www.kaggle.com/datasets/itshpark/data-driven-prediction-of-battery-cycle",
+  "batches": {
+    "B1": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "B2": "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+    "B3": "2018-04-12_batchdata_updated_struct_errorcorrect.mat"
+  },
+  "expected_records": {"B1": 46, "B2": 47, "B3": 46},
+  "expected_labeled": {"B1": 46, "B2": 39, "B3": 44},
+  "feature_sets": {
+    "baseline_2": ["dq100_10_log_variance", "cycle10_rms_c_timeweighted"],
+    "recommended_3": ["dq100_10_log_variance", "cycle10_rms_c_timeweighted", "capacity_mad_relative"]
+  },
+  "alpha_grid": [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+  "solver": "svd",
+  "target_transform": "log10",
+  "holdout_group_fraction": 0.2,
+  "random_state": 42,
+  "cv_folds": 5,
+  "expected_development_rows": 35,
+  "expected_holdout_rows": 11,
+  "holdout_policies": ["3.6C(80%)-3.6C", "5.4C(60%)-3C", "5.4C(70%)-3C", "6C(50%)-3C", "7C(30%)-3.6C"],
+  "paper_mape_percent": 9.1,
+  "gap_formulas": {
+    "Gap (Train-Valid)": "Valid - Train",
+    "Gap (Valid-Test)": "Test - Valid",
+    "Gap (Target-Test)": "Test - 9.1",
+    "Gap (Batch2-Batch3)": "Batch3 - Batch2"
+  },
+  "gap_unit": "percentage points",
+  "gap_positive_means": "later evaluation has a larger MAPE error",
+  "quality": {"qd_max_ah": 1.65, "reference_min_valid": 5, "curve_min_ptp_ah": 0.1, "voltage_points": 1000},
+  "error_cases_per_dataset": 3,
+  "refit_all_b1_before_test": false
+}
+

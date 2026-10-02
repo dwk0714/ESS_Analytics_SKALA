@@ -1,0 +1,8 @@
+{
+  "verified_models": 12,
+  "scores_recomputed_from_saved_predictions": true,
+  "reloaded_models_match_predictions": true,
+  "original_artifacts_preserved": true,
+  "protocol_group_boundaries_checked": true,
+  "existing_Ridge_scores_reproduced": true
+}

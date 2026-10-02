@@ -1,0 +1,67 @@
+{
+  "n_cells": 139,
+  "n_fit_variants": 556,
+  "batch_counts_and_qc": {
+    "B1": {
+      "cells": 46,
+      "finite_life": 46,
+      "high_points": 1,
+      "isolated_spike_points": 2
+    },
+    "B2": {
+      "cells": 47,
+      "finite_life": 39,
+      "high_points": 11,
+      "isolated_spike_points": 11
+    },
+    "B3": {
+      "cells": 46,
+      "finite_life": 44,
+      "high_points": 0,
+      "isolated_spike_points": 0
+    }
+  },
+  "raw_sample_direct_lstsq_checks": [
+    {
+      "cell_key": "B1c0",
+      "knee_cycle": 294.0,
+      "direct_vs_fast_sse_abs_error": 5.07114315817514e-13,
+      "matched": true
+    },
+    {
+      "cell_key": "B1c20",
+      "knee_cycle": 418.0,
+      "direct_vs_fast_sse_abs_error": 7.837393928289416e-14,
+      "matched": true
+    },
+    {
+      "cell_key": "B2c5",
+      "knee_cycle": 301.0,
+      "direct_vs_fast_sse_abs_error": 1.7181048250769493e-13,
+      "matched": true
+    },
+    {
+      "cell_key": "B2c19",
+      "knee_cycle": 308.0,
+      "direct_vs_fast_sse_abs_error": 2.6596780333676406e-14,
+      "matched": true
+    },
+    {
+      "cell_key": "B3c38",
+      "knee_cycle": 1523.0,
+      "direct_vs_fast_sse_abs_error": 5.638788047601651e-13,
+      "matched": true
+    },
+    {
+      "cell_key": "B3c23",
+      "knee_cycle": 1855.0,
+      "direct_vs_fast_sse_abs_error": 2.0586223697938166e-13,
+      "matched": true
+    }
+  ],
+  "synthetic_known_knee_400_recovered": 400.0,
+  "linear_no_candidate": true,
+  "short_unresolved": true,
+  "post_cutoff_data_perturbation_invariant": true,
+  "no_excluded_archive_in_selection": true
+}

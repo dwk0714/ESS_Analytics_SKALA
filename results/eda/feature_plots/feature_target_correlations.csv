@@ -1,0 +1,31 @@
+target,group,feature,n,pearson_r,spearman_rho,adjustment
+cycle_life,ALL,dq100_10_log_variance,129,-0.850608694839654,-0.8920744865772992,none
+cycle_life,ALL,cycle10_rms_c_timeweighted,129,-0.43166408055944083,-0.32294636569958746,none
+cycle_life,ALL,capacity_mad_relative,129,-0.5218025427188496,-0.6490457183513727,none
+cycle_life,B1,dq100_10_log_variance,46,-0.8861231036774866,-0.8711607269559923,none
+cycle_life,B1,cycle10_rms_c_timeweighted,46,-0.8907023123490944,-0.8558036281232814,none
+cycle_life,B1,capacity_mad_relative,46,-0.48695448222335563,-0.6198963870183843,none
+cycle_life,B2,dq100_10_log_variance,39,-0.9018830736836404,-0.7089786451951733,none
+cycle_life,B2,cycle10_rms_c_timeweighted,39,-0.20703279865431684,-0.3815163497630794,none
+cycle_life,B2,capacity_mad_relative,39,-0.48957695413118235,-0.6660593211570877,none
+cycle_life,B3,dq100_10_log_variance,44,-0.7018620670132867,-0.7972372984772357,none
+cycle_life,B3,cycle10_rms_c_timeweighted,44,-0.5065306622765802,-0.24103178578431275,none
+cycle_life,B3,capacity_mad_relative,44,-0.3499163892516992,-0.07717245772918788,none
+cycle_life,ALL_batch_centered,dq100_10_log_variance,129,-0.7730897025494536,-0.8018794880605729,demean both feature and target within batch
+cycle_life,ALL_batch_centered,cycle10_rms_c_timeweighted,129,-0.46065443552203544,-0.46949745219773625,demean both feature and target within batch
+cycle_life,ALL_batch_centered,capacity_mad_relative,129,-0.40614921767740586,-0.35741019743707503,demean both feature and target within batch
+log10_cycle_life,ALL,dq100_10_log_variance,129,-0.8864133574477743,-0.8920744865772992,none
+log10_cycle_life,ALL,cycle10_rms_c_timeweighted,129,-0.45057981682903103,-0.32294636569958746,none
+log10_cycle_life,ALL,capacity_mad_relative,129,-0.5941146105074842,-0.6490457183513727,none
+log10_cycle_life,B1,dq100_10_log_variance,46,-0.8684954239183751,-0.8711607269559923,none
+log10_cycle_life,B1,cycle10_rms_c_timeweighted,46,-0.8753479221655671,-0.8558036281232814,none
+log10_cycle_life,B1,capacity_mad_relative,46,-0.5405421955434556,-0.6198963870183843,none
+log10_cycle_life,B2,dq100_10_log_variance,39,-0.9184092022111525,-0.7089786451951733,none
+log10_cycle_life,B2,cycle10_rms_c_timeweighted,39,-0.22796590208514372,-0.3815163497630794,none
+log10_cycle_life,B2,capacity_mad_relative,39,-0.510581374893878,-0.6660593211570877,none
+log10_cycle_life,B3,dq100_10_log_variance,44,-0.7621386591482626,-0.7972372984772357,none
+log10_cycle_life,B3,cycle10_rms_c_timeweighted,44,-0.4876903272266939,-0.24103178578431275,none
+log10_cycle_life,B3,capacity_mad_relative,44,-0.4473074447471067,-0.07717245772918788,none
+log10_cycle_life,ALL_batch_centered,dq100_10_log_variance,129,-0.8418839923139388,-0.8326601576222786,demean both feature and target within batch
+log10_cycle_life,ALL_batch_centered,cycle10_rms_c_timeweighted,129,-0.4752073509124602,-0.46251505912062574,demean both feature and target within batch
+log10_cycle_life,ALL_batch_centered,capacity_mad_relative,129,-0.4744464287650954,-0.4400584754610957,demean both feature and target within batch

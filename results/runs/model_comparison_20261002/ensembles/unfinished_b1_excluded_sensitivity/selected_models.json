@@ -1,0 +1,109 @@
+{
+  "scenario": "unfinished_b1_excluded_sensitivity",
+  "selection_scope": "B1 group 5-fold CV only",
+  "stacking_inner_folds": 3,
+  "stacking_inner_split": "charging-policy GroupKFold",
+  "test_used_for_selection": false,
+  "models": [
+    {
+      "model": "Voting_equal",
+      "meta_alpha": null,
+      "CV_MAPE_percent": 8.519966540082777,
+      "train_cell_keys": [
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c9",
+        "B1c11",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "base_XGBoost_features": [
+        "dq100_10_log_variance",
+        "cycle10_rms_c_timeweighted"
+      ],
+      "base_XGBoost_parameters": {
+        "reg_lambda": 1.0,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 1,
+        "learning_rate": 0.03
+      },
+      "model_sha256": "a0c6282f3a17dd7f332bad3295b0b39c6617ad2e38bc122103c974d04bc1ff92"
+    },
+    {
+      "model": "Stacking_Ridge",
+      "meta_alpha": 1.0,
+      "CV_MAPE_percent": 8.518399608692505,
+      "train_cell_keys": [
+        "B1c5",
+        "B1c6",
+        "B1c7",
+        "B1c9",
+        "B1c11",
+        "B1c16",
+        "B1c17",
+        "B1c20",
+        "B1c21",
+        "B1c23",
+        "B1c24",
+        "B1c25",
+        "B1c26",
+        "B1c27",
+        "B1c30",
+        "B1c31",
+        "B1c32",
+        "B1c33",
+        "B1c36",
+        "B1c37",
+        "B1c38",
+        "B1c39",
+        "B1c40",
+        "B1c41",
+        "B1c42",
+        "B1c43",
+        "B1c44",
+        "B1c45"
+      ],
+      "base_XGBoost_features": [
+        "dq100_10_log_variance",
+        "cycle10_rms_c_timeweighted"
+      ],
+      "base_XGBoost_parameters": {
+        "reg_lambda": 1.0,
+        "n_estimators": 300,
+        "min_child_weight": 3,
+        "max_depth": 1,
+        "learning_rate": 0.03
+      },
+      "model_sha256": "9fb0cf115b71a382705c4b0447e1d6620219efc8531c3f176be0132bb99e24ff",
+      "meta_standardized_coefficients_log10": [
+        -0.0021864401472494045,
+        0.053438736242839,
+        0.025430513191157755
+      ],
+      "meta_intercept_log10": 2.8879078098314808
+    }
+  ]
+}

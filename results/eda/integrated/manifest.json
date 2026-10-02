@@ -1,0 +1,36 @@
+{
+  "cell_rows": 139,
+  "labeled_rows": 129,
+  "early_prediction_candidates": [
+    "dq100_10_log_variance",
+    "qd2_qc",
+    "qd_delta_100_2_qc",
+    "tavg_early_mean",
+    "chargetime_early_median",
+    "c1",
+    "c2",
+    "switch_soc_pct"
+  ],
+  "measured_current_comparison_candidates": [
+    "dq100_10_log_variance",
+    "qd2_qc",
+    "qd_delta_100_2_qc",
+    "tavg_early_mean",
+    "chargetime_early_median",
+    "cycle10_rms_c_timeweighted",
+    "cycle10_time_fraction_above_5c"
+  ],
+  "measured_current_window": "Cycle 10 alone, time-weighted active positive-current intervals before first discharge; never an early-100 average.",
+  "c_eff_soc60_80": "0.2/(portion_SOC60_80_at_C1/C1+portion_at_C2/C2), ideal CC descriptor",
+  "future_diagnostics_excluded_from_prediction": [
+    "knee",
+    "qd_late50_slope_qc",
+    "qd_full_slope_qc",
+    "qd_endpoint_raw",
+    "n_summary_rows"
+  ],
+  "vif_note": "Exploratory feature-only regressions, pairwise correlation and complete-case VIF have different n; exact QD100=QD2+delta is intentional redundancy diagnostic.",
+  "centered_statistics_note": "Mean-centered Spearman is not partial Spearman. Pearson p values use scipy's ordinary degrees of freedom, not batch-adjusted inference; no significance conclusions.",
+  "lifetime_model_trained": false,
+  "physical_identity": "Unresolved MATLAB-object barcode, no cross-batch cell joining"
+}

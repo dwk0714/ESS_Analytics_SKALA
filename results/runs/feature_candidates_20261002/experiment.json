@@ -1,0 +1,78 @@
+{
+  "status": "exploratory_candidates_not_adopted",
+  "scope": "B1 fixed development-train35 only for labels/correlation/CV; holdout/B2/B3 predictions never computed",
+  "candidate_count": 10,
+  "max_feature_cycle": 100,
+  "target": "unchanged provided cycle_life",
+  "target_transform": "log10",
+  "outer_cv": "Repeated shuffled GroupKFold by original policy;3 repeats x5 folds",
+  "seeds": [
+    42,
+    7,
+    2026
+  ],
+  "inner_cv": "3-fold GroupKFold by original policy within each outer training fold",
+  "alpha_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1,
+    10,
+    100,
+    1000
+  ],
+  "preprocessing": "per-cell physical early-only extraction; all imputation, scaling and alpha/candidate selection fitted inside appropriate CV training folds",
+  "fixed_reference": "original deterministic5-fold GroupKFold; Ridge alpha1; baseline2 andbaseline3 add-one",
+  "candidate_selection_ranking": "Individual add-one outer-CV results are exploratory rankings; choosing the best outer-CV candidate reuses development evidence. Inner-select-candidate rows estimate the complete selection process.",
+  "source_read_only_metadata": {
+    "B1": {
+      "filename": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "bytes": 3025320241,
+      "mtime_ns": 1713395514000000000
+    },
+    "B2": {
+      "filename": "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+      "bytes": 2022599329,
+      "mtime_ns": 1713395738000000000
+    },
+    "B3": {
+      "filename": "2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+      "bytes": 3236690412,
+      "mtime_ns": 1713395890000000000
+    }
+  },
+  "preserved_original_artifact_sha256": {
+    "config/model.json": "54913fb11d16d06ae95b8154e8ede19f299eb2d136544db53fe9bd4ba715ec4f",
+    "data/processed/cell_features.csv": "1ce8e41ba53843ad0464de5dc37f3fc9405210650b100418ef7e0d6d1c388fae",
+    "results/split_manifest.csv": "152984a763e19a3351c94e766bf12b1ccebb4556ace27b39fa4f1c80c798bbaa",
+    "results/cv_split_manifest.csv": "a398b49c4641d352e29b8f4df7e34683d85d6c8e47f544844b98767d2db42393",
+    "models/metadata.json": "904c345d0e2ffb8345283f0ecb15d720ddb087ff4bdde4841b27099a824b0ad1",
+    "models/ridge.joblib": "efa754d30cef6e813776400d42449b8c3d4e4eb2ab181ca1a3bddb575ed6e8e8",
+    "results/model_performance.csv": "59d4c09bcd1dcec625eb1a26bcb73a22d1bc4e072600212c377068c9d052f392",
+    "results/predictions.csv": "7f2c64f780d84cb472cf4337f60c5db9aa8ed43a2e4caf65b65ced1deb0239f0"
+  },
+  "B2_B3_labels_used": false,
+  "n_development": 35,
+  "n_development_policy_groups": 18,
+  "elapsed_seconds": 11.801944582999568,
+  "environment": {
+    "python": "3.11.11",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.4.6",
+      "pandas": "3.0.6",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2",
+      "joblib": "1.6.0"
+    }
+  },
+  "limitations": [
+    "Small training sample; repeated-CV standard deviations are dependent, not confidence intervals",
+    "Source label-ending rules and unfinished B1 records remain unchanged",
+    "B2/B3 prior EDA exposure prevents treating future external results as fully pristine",
+    "No candidate has established cross-batch generalization",
+    "Constant/missing IR and anomalous temperature acquisition are flagged; no external label is repaired"
+  ]
+}

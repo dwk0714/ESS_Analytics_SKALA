@@ -1,0 +1,4 @@
+# Saved documents, figures and models are binary artifacts.
+*.pdf binary
+*.png binary
+*.joblib binary

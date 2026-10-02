@@ -1,0 +1,15 @@
+feature_set,feature_count,alpha,features,n_cv,MAPE_percent,MAE_cycles,RMSE_cycles
+baseline_2,2,1.0,dq100_10_log_variance;cycle10_rms_c_timeweighted,35,6.986528376047286,58.388934361332396,75.10422575748493
+baseline_2,2,0.1,dq100_10_log_variance;cycle10_rms_c_timeweighted,35,7.095557288506385,59.52737158776147,76.69568010019826
+baseline_2,2,0.01,dq100_10_log_variance;cycle10_rms_c_timeweighted,35,7.107454012059774,59.65467054036653,76.89027724699126
+baseline_2,2,0.001,dq100_10_log_variance;cycle10_rms_c_timeweighted,35,7.108654467653913,59.667557769658416,76.91017497535559
+recommended_3,3,0.1,dq100_10_log_variance;cycle10_rms_c_timeweighted;capacity_mad_relative,35,7.113677148687457,59.63979321016593,76.92562411910625
+recommended_3,3,1.0,dq100_10_log_variance;cycle10_rms_c_timeweighted;capacity_mad_relative,35,7.127373669298587,59.174987926121815,75.42904996031356
+recommended_3,3,0.01,dq100_10_log_variance;cycle10_rms_c_timeweighted;capacity_mad_relative,35,7.130967818152023,59.79630487305281,77.12055171428976
+recommended_3,3,0.001,dq100_10_log_variance;cycle10_rms_c_timeweighted;capacity_mad_relative,35,7.132709742463838,59.81211201781963,77.14060760346585
+baseline_2,2,10.0,dq100_10_log_variance;cycle10_rms_c_timeweighted,35,7.291868680322719,59.380379523466594,73.36127537077883
+recommended_3,3,10.0,dq100_10_log_variance;cycle10_rms_c_timeweighted;capacity_mad_relative,35,7.739148366371273,61.89823541933359,75.17273590898905
+recommended_3,3,100.0,dq100_10_log_variance;cycle10_rms_c_timeweighted;capacity_mad_relative,35,12.609199344368985,104.01594743515386,124.49036431877146
+baseline_2,2,100.0,dq100_10_log_variance;cycle10_rms_c_timeweighted,35,13.948347368923383,112.23127539310701,132.13951932655743
+recommended_3,3,1000.0,dq100_10_log_variance;cycle10_rms_c_timeweighted;capacity_mad_relative,35,18.45117031119981,147.659552874353,175.4842641728682
+baseline_2,2,1000.0,dq100_10_log_variance;cycle10_rms_c_timeweighted,35,18.75909411562301,149.5823996996324,178.01823170812384

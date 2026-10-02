@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "scratch_sha256": "b6620dda1618df5e44d00518db087a93ab49f35c3840cf0b084f7391fc972d34",
+  "scratch_function_cell_index_zero_based": 25,
+  "selected_files": [
+    "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+    "2018-04-12_batchdata_updated_struct_errorcorrect.mat"
+  ],
+  "total_cell_records": 139,
+  "finite_life_labels": 129,
+  "delta100_available": 139,
+  "cycle10_current_available": 139,
+  "cycle10_current_qc_and_join_passed": true,
+  "checks": [
+    {
+      "batch": "B1",
+      "filename": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "cells": 46,
+      "user_function_records": 46,
+      "user_function_skipped": 0,
+      "skipped_reasons": [],
+      "numerical_features_match": true
+    },
+    {
+      "batch": "B2",
+      "filename": "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+      "cells": 47,
+      "user_function_records": 39,
+      "user_function_skipped": 8,
+      "skipped_reasons": [
+        {
+          "cell_id": 22,
+          "reason": "cycle_life가 유효하지 않습니다."
+        },
+        {
+          "cell_id": 23,
+          "reason": "cycle_life가 유효하지 않습니다."
+        },
+        {
+          "cell_id": 35,
+          "reason": "cycle_life가 유효하지 않습니다."
+        },
+        {
+          "cell_id": 36,
+          "reason": "cycle_life가 유효하지 않습니다."
+        },
+        {
+          "cell_id": 37,
+          "reason": "cycle_life가 유효하지 않습니다."
+        },
+        {
+          "cell_id": 38,
+          "reason": "cycle_life가 유효하지 않습니다."
+        },
+        {
+          "cell_id": 39,
+          "reason": "cycle_life가 유효하지 않습니다."
+        },
+        {
+          "cell_id": 40,
+          "reason": "cycle_life가 유효하지 않습니다."
+        }
+      ],
+      "numerical_features_match": true
+    },
+    {
+      "batch": "B3",
+      "filename": "2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+      "cells": 46,
+      "user_function_records": 44,
+      "user_function_skipped": 2,
+      "skipped_reasons": [
+        {
+          "cell_id": 23,
+          "reason": "cycle_life가 유효하지 않습니다."
+        },
+        {
+          "cell_id": 32,
+          "reason": "cycle_life가 유효하지 않습니다."
+        }
+      ],
+      "numerical_features_match": true
+    }
+  ],
+  "note": "The user's function excludes 10 missing-life cells; our curve EDA retains them with gray labels, while life correlations use the same 129 labeled cells. Scratch file was read only."
+}

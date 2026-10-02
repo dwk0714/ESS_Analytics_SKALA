@@ -1,0 +1,39 @@
+{
+  "selection_scope": "B1 train35 only, repeated nested charging-protocol group CV",
+  "outer": {
+    "folds": 5,
+    "seeds": [
+      42,
+      7,
+      2026
+    ]
+  },
+  "inner": {
+    "folds": 3
+  },
+  "parameter_candidates_per_booster_feature_set": 12,
+  "maximum_tree_depth": 3,
+  "tree_counts": [
+    100,
+    250
+  ],
+  "selection_objective": "Lowest mean repeat outer-OOF MAPE; inspect fit/validation gaps separately",
+  "stacking_meta_alpha_fixed_before_run": 1.0,
+  "test_used_for_selection": false,
+  "target_transform": "log10",
+  "limitations": [
+    "Repeated folds overlap; repeat SD is descriptive, not an independent confidence interval",
+    "35 development cells cannot establish absence of overfitting",
+    "B1 stored-label inconsistencies are retained for comparability",
+    "B2/B3 were already examined in prior EDA and experiments"
+  ],
+  "data_fingerprint": "b15c8586d5f1720f52c89045df6ce1a6f19e95d7a098293a8a945de3dbe8fe30",
+  "original_sha256": {
+    "models/ridge.joblib": "efa754d30cef6e813776400d42449b8c3d4e4eb2ab181ca1a3bddb575ed6e8e8",
+    "models/metadata.json": "904c345d0e2ffb8345283f0ecb15d720ddb087ff4bdde4841b27099a824b0ad1",
+    "config/model.json": "54913fb11d16d06ae95b8154e8ede19f299eb2d136544db53fe9bd4ba715ec4f",
+    "data/processed/cell_features.csv": "1ce8e41ba53843ad0464de5dc37f3fc9405210650b100418ef7e0d6d1c388fae",
+    "results/model_performance.csv": "59d4c09bcd1dcec625eb1a26bcb73a22d1bc4e072600212c377068c9d052f392",
+    "results/predictions.csv": "7f2c64f780d84cb472cf4337f60c5db9aa8ed43a2e4caf65b65ced1deb0239f0"
+  }
+}

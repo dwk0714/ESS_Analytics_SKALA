@@ -1,0 +1,72 @@
+{
+  "capacity_q100_q10_change_relative": {
+    "formula": "QDischarge(actual100)/QDischarge(actual10)-1; both finite, 0<Q<=1.65Ah",
+    "unit": "fraction",
+    "latest_cycle": 100,
+    "reason": "Signed retained-capacity change, independent of variance sign.",
+    "limitation": "Two endpoints are noisier than a window; activation can yield a positive change."
+  },
+  "capacity_theilsen_10_100_relative": {
+    "formula": "median over all i<j of (Qd[j]-Qd[i])/(actual_cycle[j]-actual_cycle[i]), cycles10..100, divided by median valid Qd2..10; >=50 valid points and >=5 reference points",
+    "unit": "fraction/cycle",
+    "latest_cycle": 100,
+    "reason": "Robust signed early capacity drift on actual cycle coordinates.",
+    "limitation": "Includes activation and slow drift; positive means early recovery, not degradation."
+  },
+  "capacity_theilsen_60_100_relative": {
+    "formula": "Theil-Sen slope on valid Qd actual60..100 / median valid Qd2..10; >=30 slope points and >=5 reference points",
+    "unit": "fraction/cycle",
+    "latest_cycle": 100,
+    "reason": "Later early-life drift can distinguish fading from initial conditioning.",
+    "limitation": "Only41 observations; may still contain activation; fixed window chosen before label analysis."
+  },
+  "dq100_10_q05_ah": {
+    "formula": "0.05 quantile of Qdlin100(V)-Qdlin10(V) on the common1000-point voltage grid; numpy linear quantile",
+    "unit": "Ah",
+    "latest_cycle": 100,
+    "reason": "Robust lower-tail curve displacement without the fragile minimum or absolute-value sign loss.",
+    "limitation": "Likely overlaps existing log variance; quantile cannot localize mechanism."
+  },
+  "dq100_10_mean_v2p0_2p4_ah": {
+    "formula": "signed arithmetic mean of Qdlin100-Qdlin10 for common voltage coordinates2.0<=V<=2.4",
+    "unit": "Ah",
+    "latest_cycle": 100,
+    "reason": "Localizes capacity displacement in the low-voltage discharge region.",
+    "limitation": "Voltage band is chemistry/protocol dependent and fixed before label analysis."
+  },
+  "dq100_10_mean_ah": {
+    "formula": "signed arithmetic mean of Qdlin100-Qdlin10 on the common1000-point2.0..3.5V grid; this uniform-grid point mean approximates normalized area",
+    "unit": "Ah",
+    "latest_cycle": 100,
+    "reason": "Measures whole-curve displacement/normalized area, while existing variance measures shape spread.",
+    "limitation": "Likely collinear with other curve descriptors; no electrode-mechanism claim."
+  },
+  "tavg_theilsen_10_100_degC_per_cycle": {
+    "formula": "Theil-Sen slope of positive finite summary Tavg on actual cycles10..100; >=50 valid points",
+    "unit": "degC/cycle",
+    "latest_cycle": 100,
+    "reason": "Observed early thermal drift can reflect changing heat generation under the test schedule.",
+    "limitation": "Ambient, sensors and protocol can dominate; bad/nonpositive values are flagged, no batch correction."
+  },
+  "ir_change_91_100_vs_2_10_relative": {
+    "formula": "median positive finite IR91..100 / median positive finite IR2..10 -1; >=5 valid values in each window",
+    "unit": "fraction",
+    "latest_cycle": 100,
+    "reason": "Early relative resistance evolution with a per-cell robust baseline.",
+    "limitation": "SOC/temperature/acquisition dependent; exactly repeated positive measurements yield0 and are flagged."
+  },
+  "tavg_median_2_100_degC": {
+    "formula": "median positive finite summary Tavg on actual2..100, >=50 valid points",
+    "unit": "degC",
+    "latest_cycle": 100,
+    "reason": "Robust early thermal exposure complements drift and observed capacity changes.",
+    "limitation": "Temperature depends on environment/sensor/protocol; no absolute-temperature damage law is inferred."
+  },
+  "chargetime_median_2_100_minutes": {
+    "formula": "median positive finite summary chargetime on actual2..100, >=50 valid points; no future-based outlier cutoff",
+    "unit": "minutes",
+    "latest_cycle": 100,
+    "reason": "Robust observed charge duration describes time spent under the charging schedule.",
+    "limitation": "May encode protocol and rests, overlaps RMS current; acquisition phases differ across batches."
+  }
+}

@@ -1,0 +1,37 @@
+trial,features,parameters,inner_MAPE_percent
+0,['dq100_10_log_variance'],"{'reg_lambda': 1.0, 'n_estimators': 250, 'min_child_samples': 3, 'max_depth': 1, 'learning_rate': 0.03}",9.155767194651235
+1,['dq100_10_log_variance'],"{'reg_lambda': 10.0, 'n_estimators': 100, 'min_child_samples': 3, 'max_depth': 3, 'learning_rate': 0.07}",9.410409157699053
+2,['dq100_10_log_variance'],"{'reg_lambda': 0.1, 'n_estimators': 100, 'min_child_samples': 5, 'max_depth': 2, 'learning_rate': 0.03}",9.91598718680224
+3,['dq100_10_log_variance'],"{'reg_lambda': 0.1, 'n_estimators': 100, 'min_child_samples': 3, 'max_depth': 1, 'learning_rate': 0.03}",9.039507928747897
+4,['dq100_10_log_variance'],"{'reg_lambda': 1.0, 'n_estimators': 250, 'min_child_samples': 3, 'max_depth': 3, 'learning_rate': 0.03}",10.077990659682735
+5,['dq100_10_log_variance'],"{'reg_lambda': 10.0, 'n_estimators': 100, 'min_child_samples': 3, 'max_depth': 2, 'learning_rate': 0.07}",9.052814721803749
+6,['dq100_10_log_variance'],"{'reg_lambda': 1.0, 'n_estimators': 250, 'min_child_samples': 5, 'max_depth': 1, 'learning_rate': 0.03}",9.88776674773883
+7,['dq100_10_log_variance'],"{'reg_lambda': 1.0, 'n_estimators': 250, 'min_child_samples': 5, 'max_depth': 3, 'learning_rate': 0.03}",10.115202266610737
+8,['dq100_10_log_variance'],"{'reg_lambda': 0.1, 'n_estimators': 100, 'min_child_samples': 3, 'max_depth': 2, 'learning_rate': 0.03}",9.093805635862035
+9,['dq100_10_log_variance'],"{'reg_lambda': 0.1, 'n_estimators': 100, 'min_child_samples': 5, 'max_depth': 2, 'learning_rate': 0.07}",10.14156928415601
+10,['dq100_10_log_variance'],"{'reg_lambda': 10.0, 'n_estimators': 250, 'min_child_samples': 5, 'max_depth': 1, 'learning_rate': 0.07}",9.943068798688463
+11,['dq100_10_log_variance'],"{'reg_lambda': 1.0, 'n_estimators': 100, 'min_child_samples': 5, 'max_depth': 3, 'learning_rate': 0.03}",9.905218291176425
+12,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']","{'reg_lambda': 1.0, 'n_estimators': 250, 'min_child_samples': 3, 'max_depth': 1, 'learning_rate': 0.03}",8.330557913159286
+13,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']","{'reg_lambda': 10.0, 'n_estimators': 100, 'min_child_samples': 3, 'max_depth': 3, 'learning_rate': 0.07}",8.738708567316756
+14,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']","{'reg_lambda': 0.1, 'n_estimators': 100, 'min_child_samples': 5, 'max_depth': 2, 'learning_rate': 0.03}",8.763083532073626
+15,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']","{'reg_lambda': 0.1, 'n_estimators': 100, 'min_child_samples': 3, 'max_depth': 1, 'learning_rate': 0.03}",8.617551655194076
+16,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']","{'reg_lambda': 1.0, 'n_estimators': 250, 'min_child_samples': 3, 'max_depth': 3, 'learning_rate': 0.03}",9.449532114105722
+17,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']","{'reg_lambda': 10.0, 'n_estimators': 100, 'min_child_samples': 3, 'max_depth': 2, 'learning_rate': 0.07}",8.321035858097584
+18,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']","{'reg_lambda': 1.0, 'n_estimators': 250, 'min_child_samples': 5, 'max_depth': 1, 'learning_rate': 0.03}",8.929338685940479
+19,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']","{'reg_lambda': 1.0, 'n_estimators': 250, 'min_child_samples': 5, 'max_depth': 3, 'learning_rate': 0.03}",8.638460681371138
+20,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']","{'reg_lambda': 0.1, 'n_estimators': 100, 'min_child_samples': 3, 'max_depth': 2, 'learning_rate': 0.03}",8.422342662535016
+21,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']","{'reg_lambda': 0.1, 'n_estimators': 100, 'min_child_samples': 5, 'max_depth': 2, 'learning_rate': 0.07}",8.661369121899675
+22,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']","{'reg_lambda': 10.0, 'n_estimators': 250, 'min_child_samples': 5, 'max_depth': 1, 'learning_rate': 0.07}",8.935602265525507
+23,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted']","{'reg_lambda': 1.0, 'n_estimators': 100, 'min_child_samples': 5, 'max_depth': 3, 'learning_rate': 0.03}",8.885173908778409
+24,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']","{'reg_lambda': 1.0, 'n_estimators': 250, 'min_child_samples': 3, 'max_depth': 1, 'learning_rate': 0.03}",9.03952594765885
+25,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']","{'reg_lambda': 10.0, 'n_estimators': 100, 'min_child_samples': 3, 'max_depth': 3, 'learning_rate': 0.07}",8.768963691109006
+26,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']","{'reg_lambda': 0.1, 'n_estimators': 100, 'min_child_samples': 5, 'max_depth': 2, 'learning_rate': 0.03}",9.649044701515876
+27,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']","{'reg_lambda': 0.1, 'n_estimators': 100, 'min_child_samples': 3, 'max_depth': 1, 'learning_rate': 0.03}",9.137827719515204
+28,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']","{'reg_lambda': 1.0, 'n_estimators': 250, 'min_child_samples': 3, 'max_depth': 3, 'learning_rate': 0.03}",9.29293484556983
+29,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']","{'reg_lambda': 10.0, 'n_estimators': 100, 'min_child_samples': 3, 'max_depth': 2, 'learning_rate': 0.07}",8.774030528476308
+30,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']","{'reg_lambda': 1.0, 'n_estimators': 250, 'min_child_samples': 5, 'max_depth': 1, 'learning_rate': 0.03}",9.425581417837096
+31,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']","{'reg_lambda': 1.0, 'n_estimators': 250, 'min_child_samples': 5, 'max_depth': 3, 'learning_rate': 0.03}",9.825143486581933
+32,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']","{'reg_lambda': 0.1, 'n_estimators': 100, 'min_child_samples': 3, 'max_depth': 2, 'learning_rate': 0.03}",8.898509636725123
+33,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']","{'reg_lambda': 0.1, 'n_estimators': 100, 'min_child_samples': 5, 'max_depth': 2, 'learning_rate': 0.07}",9.803876870323462
+34,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']","{'reg_lambda': 10.0, 'n_estimators': 250, 'min_child_samples': 5, 'max_depth': 1, 'learning_rate': 0.07}",9.293632692450963
+35,"['dq100_10_log_variance', 'cycle10_rms_c_timeweighted', 'capacity_mad_relative']","{'reg_lambda': 1.0, 'n_estimators': 100, 'min_child_samples': 5, 'max_depth': 3, 'learning_rate': 0.03}",9.577230043459672

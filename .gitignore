@@ -1,0 +1,23 @@
+data/raw/*
+!data/raw/.gitkeep
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.implementation-progress.md
+
+# Local raw data, credentials and execution caches
+*.mat
+.env
+.env.*
+.aws/
+.agents/
+.codex/
+.superpowers/
+
+# Historical comparison binaries contain CatBoost build-machine paths.
+# Keep the comparison tables and the final Stacking model in the submission.
+results/runs/boosting_selection_20261002/CatBoost.joblib
+results/runs/top2_feature_comparison_20261002/CatBoost_baseline.joblib
+results/runs/top2_feature_comparison_20261002/CatBoost_plus_top2.joblib

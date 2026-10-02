@@ -1,0 +1,15 @@
+{
+  "raw_feature_rows": 139,
+  "provided_labels": 129,
+  "predictors": 4,
+  "independent_train_cells": 35,
+  "cv_repeats": 3,
+  "cv_oof_rows": 105,
+  "all_approved_research_OOF_predictions_reproduced": true,
+  "same_saved_model_for_holdout_b2_b3": true,
+  "raw_feature_values_match_previous_research": true,
+  "feature_and_modeling_notebooks_executed": true,
+  "legacy_ridge_model_preserved": true,
+  "legacy_ridge_reporting_verified": true,
+  "temporary_cv_checks_passed": 4
+}

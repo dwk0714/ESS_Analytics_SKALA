@@ -1,0 +1,197 @@
+[
+  {
+    "repeat": 1,
+    "fold": 1,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 5.820295986304903
+  },
+  {
+    "repeat": 1,
+    "fold": 2,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 8.036607860186956
+  },
+  {
+    "repeat": 1,
+    "fold": 3,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 7.835495590867479
+  },
+  {
+    "repeat": 1,
+    "fold": 4,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 9.969653046289647
+  },
+  {
+    "repeat": 1,
+    "fold": 5,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 6.931539958492748
+  },
+  {
+    "repeat": 2,
+    "fold": 1,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 7.298045771973413
+  },
+  {
+    "repeat": 2,
+    "fold": 2,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 5.919168566128924
+  },
+  {
+    "repeat": 2,
+    "fold": 3,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 8.55922971798942
+  },
+  {
+    "repeat": 2,
+    "fold": 4,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 7.25674386990766
+  },
+  {
+    "repeat": 2,
+    "fold": 5,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 7.156580601467125
+  },
+  {
+    "repeat": 3,
+    "fold": 1,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 6.540922945365263
+  },
+  {
+    "repeat": 3,
+    "fold": 2,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 8.12714584362024
+  },
+  {
+    "repeat": 3,
+    "fold": 3,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 6.051140733412546
+  },
+  {
+    "repeat": 3,
+    "fold": 4,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 8.309077343306498
+  },
+  {
+    "repeat": 3,
+    "fold": 5,
+    "trial": 0,
+    "features": [
+      "dq100_10_log_variance",
+      "cycle10_rms_c_timeweighted"
+    ],
+    "parameters": {
+      "alpha": 1.0
+    },
+    "inner_MAPE_percent": 7.545303651026841
+  }
+]

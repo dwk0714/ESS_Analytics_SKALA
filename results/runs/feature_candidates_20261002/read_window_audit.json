@@ -1,0 +1,1253 @@
+[
+  {
+    "cell_key": "B1c0",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c1",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c2",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c3",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c4",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c5",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c6",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c7",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c8",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c9",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c10",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c11",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c12",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c13",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c14",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c15",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c16",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c17",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c18",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c19",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c20",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c21",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c22",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c23",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c24",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c25",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c26",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c27",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c28",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c29",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c30",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c31",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c32",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c33",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c34",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c35",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c36",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c37",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c38",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c39",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c40",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c41",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c42",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c43",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c44",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B1c45",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c0",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c1",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c2",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c3",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c4",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c5",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c6",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c7",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c8",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c9",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c10",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c11",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c12",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c13",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c14",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c15",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c16",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c17",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c18",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c19",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c20",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c21",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c22",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c23",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c24",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c25",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c26",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c27",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c28",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c29",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c30",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c31",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c32",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c33",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c34",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c35",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c36",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c37",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c38",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c39",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c40",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c41",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c42",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c43",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c44",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c45",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B2c46",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c0",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c1",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c2",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c3",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c4",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c5",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c6",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c7",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c8",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c9",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c10",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c11",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c12",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c13",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c14",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c15",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c16",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c17",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c18",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c19",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c20",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c21",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c22",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c23",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c24",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c25",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c26",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c27",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c28",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c29",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c30",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c31",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c32",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c33",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c34",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c35",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c36",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c37",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c38",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c39",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c40",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c41",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c42",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c43",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c44",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  },
+  {
+    "cell_key": "B3c45",
+    "summary_actual_cycles": "1..100",
+    "summary_fields": "cycle,QDischarge,IR,Tavg,Tmax,chargetime",
+    "curve_actual_cycles": "10,100",
+    "current_time_actual_cycles": "10",
+    "largest_feature_cycle": 100,
+    "whole_life_arrays_loaded": false
+  }
+]
